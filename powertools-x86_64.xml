@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE comps PUBLIC "-//Red Hat, Inc.//DTD Comps info//EN" "comps.dtd">
 <comps>
   <group>
-    <id>crb</id>
+    <id>powertools</id>
     <default>true</default>
     <uservisible>false</uservisible>
     <display_order>1024</display_order>
-    <name>CRB</name>
-    <name xml:lang="fr">CRB</name>
-    <name xml:lang="ja">CRB</name>
-    <name xml:lang="ko">CRB</name>
-    <name xml:lang="zh_CN">CRB</name>
-    <description>CRB</description>
-    <description xml:lang="fr">CRB</description>
-    <description xml:lang="ja">CRB</description>
-    <description xml:lang="ko">CRB</description>
-    <description xml:lang="zh_CN">CRB</description>
+    <name>PowerTools</name>
+    <name xml:lang="fr">PowerTools</name>
+    <name xml:lang="ja">PowerTools</name>
+    <name xml:lang="ko">PowerTools</name>
+    <name xml:lang="zh_CN">PowerTools</name>
+    <description>PowerTools</description>
+    <description xml:lang="fr">PowerTools</description>
+    <description xml:lang="ja">PowerTools</description>
+    <description xml:lang="ko">PowerTools</description>
+    <description xml:lang="zh_CN">PowerTools</description>
     <packagelist>
       <packagereq type="default">CUnit-devel</packagereq>
       <packagereq type="default">Judy-devel</packagereq>
