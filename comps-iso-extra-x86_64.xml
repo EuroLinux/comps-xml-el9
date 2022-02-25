@@ -247,7 +247,7 @@
     <default>false</default>
     <uservisible>false</uservisible>
     <packagelist>
-      <packagereq variant="AppStream">authselect-compat</packagereq>
+      <packagereq>authselect-compat</packagereq>
       <packagereq variant="BaseOS">chrony</packagereq>
       <packagereq variant="BaseOS">cryptsetup</packagereq>
       <packagereq variant="BaseOS">device-mapper-multipath</packagereq>
