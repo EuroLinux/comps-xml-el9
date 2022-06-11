@@ -37,26 +37,26 @@ listed on `Minor Version` checklist.
 ### CodeReady
 
 CodeReady is the name trademarked/protected by Red Hat (and they use it as repo
-name xDDD). CentOS popularize the most popular name for this repository
-`PowerTools`.  Because we are technical folks, not lawyers, and we have to
-somehow mitigate this typical corporation a-move - Change all `CodeReady`
-to `PowerTools` like CentOS did:
+name xDDD). For EL version 8 CentOS popularize the most popular name for this repository
+`PowerTools`.  
 
 More information:
 - https://lists.centos.org/pipermail/centos-devel/2019-September/017836.html
 
-This used to be the case for EL8 and with EL9 the 'CodeReady' name appears to
-be replaced with 'CRB' (CodeReady Builder?). The rebrander script changes this
+**This used to be the case for EL8 and with EL9 the 'CodeReady' name appears to
+be replaced with 'CRB' (CodeReady Builder. The rebrander script changes this
 reference as well and leaves the initial one just for the sake of compatibility
-- just in case something changes in the future.
+- just in case something changes in the future.**
 
 Use following substitutions then use substitutions that are prestended above:
 
-- `Red Hat CodeReady Linux Builder` -> `EuroLinux PowerTools Linux Builder`
-- `CodeReady` -> `PowerTools`
-- `codeready` -> `powertools`
-- `CRB` -> `PowerTools`
-- `crb` -> `powertools`
+- `Red Hat CodeReady Linux Builder` -> `EuroLinux CRB`
+- `CodeReadyBuilder` -> `CRB`
+- `CodeReady-Builder` -> `CRB`
+- `CodeReady Builder` -> `CRB`
+- `CodeReady` -> `CRB`
+- `codeready-builder` -> `crb`
+- `codeready` -> `crb`
 
 ## About DocType line
 

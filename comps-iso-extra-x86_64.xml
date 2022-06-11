@@ -7726,10 +7726,10 @@
     </packagelist>
   </group>
 
-  <group variant="PowerTools">
-    <id>powertools-builder</id>
-    <name>PowerTools Builder</name>
-    <description>EuroLinux Devel PowerTools packages.</description>
+  <group variant="CRB">
+    <id>crb</id>
+    <name>CRB</name>
+    <description>EuroLinux Devel CRB packages.</description>
     <default>false</default>
     <uservisible>false</uservisible>
     <packagelist>
