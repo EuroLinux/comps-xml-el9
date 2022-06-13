@@ -2785,8 +2785,8 @@
     <uservisible>false</uservisible>
     <packagelist>
       <packagereq type="mandatory" variant="BaseOS">chrony</packagereq>
-      <packagereq type="mandatory" variant="BaseOS">redhat-release</packagereq>
-      <packagereq type="mandatory" variant="BaseOS">redhat-release-eula</packagereq>
+      <packagereq type="mandatory" variant="BaseOS">el-release</packagereq>
+      <packagereq type="mandatory" variant="BaseOS">el-release-eula</packagereq>
       <packagereq type="mandatory" variant="BaseOS">polkit</packagereq>
       <packagereq type="mandatory" variant="BaseOS">realmd</packagereq>
       <packagereq type="default" variant="BaseOS">NetworkManager-config-server</packagereq>
@@ -2994,8 +2994,8 @@
       <packagereq type="mandatory" variant="BaseOS">pciutils</packagereq>
       <packagereq type="mandatory" variant="BaseOS">psacct</packagereq>
       <packagereq type="mandatory" variant="BaseOS">quota</packagereq>
-      <packagereq type="mandatory" variant="BaseOS">redhat-release</packagereq>
-      <packagereq type="mandatory" variant="BaseOS">redhat-release-eula</packagereq>
+      <packagereq type="mandatory" variant="BaseOS">el-release</packagereq>
+      <packagereq type="mandatory" variant="BaseOS">el-release-eula</packagereq>
       <packagereq type="mandatory" variant="BaseOS">sudo</packagereq>
       <packagereq type="mandatory" variant="BaseOS">symlinks</packagereq>
       <packagereq type="mandatory" variant="BaseOS">systemd-udev</packagereq>
@@ -3176,8 +3176,8 @@
       <packagereq type="mandatory" variant="BaseOS">pciutils</packagereq>
       <packagereq type="mandatory" variant="BaseOS">psacct</packagereq>
       <packagereq type="mandatory" variant="BaseOS">quota</packagereq>
-      <packagereq type="mandatory" variant="BaseOS">redhat-release</packagereq>
-      <packagereq type="mandatory" variant="BaseOS">redhat-release-eula</packagereq>
+      <packagereq type="mandatory" variant="BaseOS">el-release</packagereq>
+      <packagereq type="mandatory" variant="BaseOS">el-release-eula</packagereq>
       <packagereq type="mandatory" variant="BaseOS">sudo</packagereq>
       <packagereq type="mandatory" variant="BaseOS">symlinks</packagereq>
       <packagereq type="mandatory" variant="BaseOS">systemd-udev</packagereq>
@@ -3981,8 +3981,8 @@
       <packagereq variant="BaseOS">psacct</packagereq>
       <packagereq variant="BaseOS">quota</packagereq>
       <packagereq variant="BaseOS">realmd</packagereq>
-      <packagereq type="mandatory" variant="BaseOS">redhat-release</packagereq>
-      <packagereq type="mandatory" variant="BaseOS">redhat-release-eula</packagereq>
+      <packagereq type="mandatory" variant="BaseOS">el-release</packagereq>
+      <packagereq type="mandatory" variant="BaseOS">el-release-eula</packagereq>
       <packagereq variant="BaseOS">rsync</packagereq>
       <packagereq variant="BaseOS">sos</packagereq>
       <packagereq variant="BaseOS">sssd</packagereq>
@@ -7637,7 +7637,7 @@
   <group>
     <id>rt</id>
     <name>RT</name>
-    <description>RHEL for Realtime packages.</description>
+    <description>EL for Realtime packages.</description>
     <uservisible>true</uservisible>
     <packagelist>
       <packagereq type="default">kernel-rt</packagereq>
@@ -7655,7 +7655,7 @@
   <group>
     <id>rt-debug</id>
     <name>RT-debug</name>
-    <description>RHEL for Realtime debug packages.</description>
+    <description>EL for Realtime debug packages.</description>
     <uservisible>false</uservisible>
     <packagelist>
       <packagereq type="default">kernel-rt-debug</packagereq>
@@ -7668,7 +7668,7 @@
   <group>
     <id>nfv</id>
     <name>NFV</name>
-    <description>RHEL for Realtime for NFV packages.</description>
+    <description>EL for Realtime for NFV packages.</description>
     <uservisible>true</uservisible>
     <packagelist>
       <packagereq type="default">kernel-rt</packagereq>
@@ -7686,7 +7686,7 @@
   <group>
     <id>nfv-debug</id>
     <name>NFV-debug</name>
-    <description>RHEL for Realtime for NFV debug packages.</description>
+    <description>EL for Realtime for NFV debug packages.</description>
     <uservisible>false</uservisible>
     <packagelist>
       <packagereq type="default">kernel-rt-debug</packagereq>
@@ -7700,7 +7700,7 @@
   <group arch="ppc64le,s390x,x86_64">
     <id>sap</id>
     <name>SAP</name>
-    <description>RHEL for SAP packages.</description>
+    <description>EL for SAP packages.</description>
     <uservisible>false</uservisible>
     <packagelist>
       <packagereq type="default">sap-cluster-connector</packagereq>
@@ -7714,7 +7714,7 @@
   <group arch="ppc64le,s390x,x86_64">
     <id>sap-hana</id>
     <name>SAP HANA</name>
-    <description>RHEL for SAP HANA packages.</description>
+    <description>EL for SAP HANA packages.</description>
     <uservisible>false</uservisible>
     <packagelist>
       <packagereq type="default">resource-agents-sap-hana</packagereq>
