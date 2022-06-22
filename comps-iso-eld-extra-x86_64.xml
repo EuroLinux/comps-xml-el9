@@ -8697,7 +8697,6 @@
     <packagelist>
       <packagereq type="mandatory">eld-setup</packagereq>
       <packagereq type="mandatory">eld-backgrounds</packagereq>
-      <packagereq type="mandatory">eld-setup-flathub</packagereq>
     </packagelist>
   </group>
   <environment variant="BaseOS">
