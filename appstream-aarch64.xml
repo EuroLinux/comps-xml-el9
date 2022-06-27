@@ -4459,7 +4459,6 @@
       <packagereq type="default">nmap-ncat</packagereq>
       <packagereq type="default">pinfo</packagereq>
       <packagereq type="default">plymouth</packagereq>
-      <packagereq type="default">rhc</packagereq>
       <packagereq type="default">tcpdump</packagereq>
       <packagereq type="default">vim-enhanced</packagereq>
       <packagereq type="default">wget</packagereq>
@@ -4803,7 +4802,6 @@
       <packagereq type="default">nmap-ncat</packagereq>
       <packagereq type="default">pinfo</packagereq>
       <packagereq type="default">plymouth</packagereq>
-      <packagereq type="default">rhc</packagereq>
       <packagereq type="default">tcpdump</packagereq>
       <packagereq type="default">vim-enhanced</packagereq>
       <packagereq type="default">wget</packagereq>

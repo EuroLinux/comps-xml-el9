@@ -3070,7 +3070,6 @@
       <packagereq type="default" variant="AppStream">tcpdump</packagereq>
       <packagereq type="default" variant="AppStream">wget</packagereq>
       <packagereq type="default" variant="AppStream">vim-enhanced</packagereq>
-      <packagereq type="default" variant="AppStream">insights-client</packagereq>
     </packagelist>
   </group>
   <group>
@@ -3252,7 +3251,6 @@
       <packagereq type="default" variant="AppStream">tcpdump</packagereq>
       <packagereq type="default" variant="AppStream">wget</packagereq>
       <packagereq type="default" variant="AppStream">vim-enhanced</packagereq>
-      <packagereq type="default" variant="AppStream">insights-client</packagereq>
     </packagelist>
   </group>
   <group>
