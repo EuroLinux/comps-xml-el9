@@ -3070,7 +3070,6 @@
       <packagereq type="default" variant="AppStream">tcpdump</packagereq>
       <packagereq type="default" variant="AppStream">wget</packagereq>
       <packagereq type="default" variant="AppStream">vim-enhanced</packagereq>
-      <packagereq type="default" variant="AppStream">insights-client</packagereq>
     </packagelist>
   </group>
   <group>
@@ -3252,7 +3251,6 @@
       <packagereq type="default" variant="AppStream">tcpdump</packagereq>
       <packagereq type="default" variant="AppStream">wget</packagereq>
       <packagereq type="default" variant="AppStream">vim-enhanced</packagereq>
-      <packagereq type="default" variant="AppStream">insights-client</packagereq>
     </packagelist>
   </group>
   <group>
@@ -8690,13 +8688,12 @@
 
 
   <group variant="AppStream">
-    <id>eld-group</id>
+    <id>eld-setup</id>
     <name>EuroLinux Desktop Setup</name>
     <default>true</default>
     <uservisible>false</uservisible>
     <packagelist>
       <packagereq type="mandatory">eld-setup</packagereq>
-      <packagereq type="mandatory">eld-backgrounds</packagereq>
     </packagelist>
   </group>
   <environment variant="BaseOS">
@@ -9508,7 +9505,8 @@
       <groupid>print-client</groupid>
       <groupid>standard</groupid>
       <groupid>workstation-product</groupid>
-      <groupid>eld-group</groupid>
+      <groupid>eld-setup</groupid>
+      <groupid>office-suite</groupid>
     </grouplist>
     <optionlist>
       <groupid>backup-client</groupid>
