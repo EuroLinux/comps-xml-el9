@@ -8694,6 +8694,7 @@
     <uservisible>false</uservisible>
     <packagelist>
       <packagereq type="mandatory">eld-setup</packagereq>
+      <packagereq type="default">eld-libreoffice-ribbon</packagereq>
     </packagelist>
   </group>
   <environment variant="BaseOS">

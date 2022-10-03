@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<comps>
+  <group>
+    <id>eld-setup</id>
+    <name>eld-setup</name>
+    <packagelist>
+      <packagereq type="mandatory">eld-setup</packagereq>
+      <packagereq type="default">eld-libreoffice-ribbon</packagereq>
+    </packagelist>
+  </group>
+
+  <environment>
+    <id>eld</id>
+    <name>EuroLinux Desktop</name>
+    <description>Long time support, stable desktop environment.</description>
+    <description xml:lang="cs">Uživatelsky přívětivé podnikové desktopové prostředí.</description>
+    <description xml:lang="de">Benutzerfreundliche Desktop-Umgebung für Unternehmen.</description>
+    <description xml:lang="de_CH">Benutzerfreundliche Desktop-Umgebung für Unternehmen.</description>
+    <description xml:lang="es">Entorno de escritorio empresarial fácil de usar.</description>
+    <description xml:lang="fr">Environnement de bureau d'entreprise convivial.</description>
+    <description xml:lang="gu">વપરાશકર્તા મૈત્રીપૂર્ણ એન્ટરપ્રાઇઝ ડેસ્કટોપ પર્યાવરણ.</description>
+    <description xml:lang="hi">उपयोगकर्ता के अनुकूल उद्यम डेस्कटॉप वातावरण।</description>
+    <description xml:lang="it">Ambiente desktop aziendale intuitivo.</description>
+    <description xml:lang="ja">ユーザーフレンドリーなエンタープライズデスクトップ環境。</description>
+    <description xml:lang="kn">ಬಳಕೆದಾರ ಸ್ನೇಹಿ ಎಂಟರ್u200cಪ್ರೈಸ್ ಡೆಸ್ಕ್u200cಟಾಪ್ ಪರಿಸರ.</description>
+    <description xml:lang="ko">사용자 친화적인 엔터프라이즈 데스크탑 환경.</description>
+    <description xml:lang="ml">ഉപയോക്തൃ-സൗഹൃദ എന്റർപ്രൈസ് ഡെസ്ക്ടോപ്പ് പരിസ്ഥിതി.</description>
+    <description xml:lang="mr">वापरकर्ता अनुकूल एंटरप्राइझ डेस्कटॉप वातावरण.</description>
+    <description xml:lang="or">ଉପଭୋକ୍ତା-ଅନୁକୂଳ ଉଦ୍ୟୋଗ ଡେସ୍କଟପ୍ ପରିବେଶ |</description>
+    <description xml:lang="pa">ਉਪਭੋਗਤਾ-ਅਨੁਕੂਲ ਐਂਟਰਪ੍ਰਾਈਜ਼ ਡੈਸਕਟਾਪ ਵਾਤਾਵਰਣ।</description>
+    <description xml:lang="pl">Przyjazne dla użytkownika środowisko pulpitu korporacyjnego.</description>
+    <description xml:lang="pt">Ambiente de desktop empresarial fácil de usar.</description>
+    <description xml:lang="pt_BR">Ambiente de desktop empresarial fácil de usar.</description>
+    <description xml:lang="ru">Удобная среда рабочего стола предприятия.</description>
+    <description xml:lang="ta">பயனர் நட்பு நிறுவன டெஸ்க்டாப் சூழல்.</description>
+    <description xml:lang="te">యూజర్ ఫ్రెండ్లీ ఎంటర్u200cప్రైజ్ డెస్క్u200cటాప్ వాతావరణం.</description>
+    <description xml:lang="uk">Зручне робоче середовище підприємства.</description>
+    <description xml:lang="zh">用户友好的企业桌面环境。</description>
+    <description xml:lang="zh_CN">用户友好的企业桌面环境。</description>
+    <description xml:lang="zh_TW">用戶友好的企業桌面環境。</description>
+    <grouplist>
+      <groupid>base-x</groupid>
+      <groupid>core</groupid>
+      <groupid>fonts</groupid>
+      <groupid>gnome-desktop</groupid>
+      <groupid>guest-desktop-agents</groupid>
+      <groupid>hardware-support</groupid>
+      <groupid>internet-browser</groupid>
+      <groupid>multimedia</groupid>
+      <groupid>networkmanager-submodules</groupid>
+      <groupid>print-client</groupid>
+      <groupid>standard</groupid>
+      <groupid>workstation-product</groupid>
+      <groupid>eld-setup</groupid>
+      <groupid>office-suite</groupid>
+    </grouplist>
+    <optionlist>
+      <groupid>backup-client</groupid>
+      <groupid>gnome-apps</groupid>
+      <groupid>headless-management</groupid>
+      <groupid>internet-applications</groupid>
+      <groupid>office-suite</groupid>
+      <groupid>remote-desktop-clients</groupid>
+      <groupid>smart-card</groupid>
+    </optionlist>
+  </environment>
+</comps>
