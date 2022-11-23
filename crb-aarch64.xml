@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE comps PUBLIC "-//Red Hat, Inc.//DTD Comps info//EN" "comps.dtd">
 <comps>
   <group>
     <id>crb</id>
@@ -863,7 +862,6 @@
       <packagereq type="default">rasqal-devel</packagereq>
       <packagereq type="default">redhat-sb-certs</packagereq>
       <packagereq type="default">redland-devel</packagereq>
-      <packagereq type="default">rhc-devel</packagereq>
       <packagereq type="default">rpcgen</packagereq>
       <packagereq type="default">rpcsvc-proto-devel</packagereq>
       <packagereq type="default">rrdtool-devel</packagereq>

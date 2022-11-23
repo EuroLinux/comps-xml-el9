@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE comps PUBLIC "-//Red Hat, Inc.//DTD Comps info//EN" "comps.dtd">
 <comps>
   <group>
     <id>standard</id>
@@ -18,17 +17,17 @@
     <name xml:lang="ru">Стандарт</name>
     <name xml:lang="zh_CN">标准安装</name>
     <name xml:lang="zh_TW">標準</name>
-    <description>The standard installation of Red Hat Enterprise Linux.</description>
-    <description xml:lang="de">Die Standardinstallation von Red Hat Enterprise Linux.</description>
-    <description xml:lang="es">La instalación estándar de Red Hat Enterprise Linux.</description>
-    <description xml:lang="fr">Installation standard de Red Hat Enterprise Linux.</description>
-    <description xml:lang="it">L'installazione standard di Red Hat Enterprise Linux.</description>
-    <description xml:lang="ja">Red Hat Enterprise Linux の標準インストールです。</description>
-    <description xml:lang="ko">Red Hat Enterprise Linux의 표준 설치입니다.</description>
-    <description xml:lang="pt_BR">A instalação padrão do Red Hat Enterprise Linux.</description>
-    <description xml:lang="ru">Стандартная установка Red Hat Enterprise Linux.</description>
-    <description xml:lang="zh_CN">Red Hat Enterprise Linux 的标准安装。</description>
-    <description xml:lang="zh_TW">紅帽企業Linux的標準安裝。</description>
+    <description>The standard installation of EuroLinux.</description>
+    <description xml:lang="de">Die Standardinstallation von EuroLinux.</description>
+    <description xml:lang="es">La instalación estándar de EuroLinux.</description>
+    <description xml:lang="fr">Installation standard de EuroLinux.</description>
+    <description xml:lang="it">L'installazione standard di EuroLinux.</description>
+    <description xml:lang="ja">EuroLinux の標準インストールです。</description>
+    <description xml:lang="ko">EuroLinux의 표준 설치입니다.</description>
+    <description xml:lang="pt_BR">A instalação padrão do EuroLinux.</description>
+    <description xml:lang="ru">Стандартная установка EuroLinux.</description>
+    <description xml:lang="zh_CN">EuroLinux 的标准安装。</description>
+    <description xml:lang="zh_TW">EuroLinux的標準安裝。</description>
     <packagelist>
       <packagereq type="mandatory">acl</packagereq>
       <packagereq type="mandatory">at</packagereq>
@@ -51,8 +50,8 @@
       <packagereq type="mandatory">pciutils</packagereq>
       <packagereq type="mandatory">psacct</packagereq>
       <packagereq type="mandatory">quota</packagereq>
-      <packagereq type="mandatory">redhat-release</packagereq>
-      <packagereq type="mandatory">redhat-release-eula</packagereq>
+      <packagereq type="mandatory">el-release</packagereq>
+      <packagereq type="mandatory">el-release-eula</packagereq>
       <packagereq type="mandatory">sudo</packagereq>
       <packagereq type="mandatory">symlinks</packagereq>
       <packagereq type="mandatory">systemd-udev</packagereq>
@@ -107,8 +106,6 @@
       <packagereq type="optional">traceroute</packagereq>
       <packagereq type="optional">vdo-support</packagereq>
       <packagereq type="optional">zsh</packagereq>
-      <packagereq requires="redhat-release" type="conditional">libdnf-plugin-subscription-manager</packagereq>
-      <packagereq requires="redhat-release" type="conditional">subscription-manager-cockpit</packagereq>
     </packagelist>
   </group>
   <group>
@@ -809,7 +806,6 @@
       <packagereq type="optional">rdma-core</packagereq>
       <packagereq type="optional">selinux-policy-mls</packagereq>
       <packagereq type="optional">tboot</packagereq>
-      <packagereq requires="redhat-release" type="conditional">subscription-manager</packagereq>
     </packagelist>
   </group>
   <group>
@@ -1254,17 +1250,17 @@
     <name xml:lang="zh">Linux 的遠端管理</name>
     <name xml:lang="zh_CN">Linux 的远程管理</name>
     <name xml:lang="zh_TW">Linux 的遠端管理</name>
-    <description>Remote management interface for Red Hat Enterprise Linux.</description>
-    <description xml:lang="de">Fernverwaltungsschnittstelle für Red Hat Enterprise Linux.</description>
-    <description xml:lang="es">Interfaz de administración remota para Red Hat Enterprise Linux.</description>
-    <description xml:lang="fr">Interface de gestion à distance de Red Hat Enterprise Linux.</description>
-    <description xml:lang="it">Interfaccia di gestione remota per Red Hat Enterprise Linux.</description>
-    <description xml:lang="ja">Red Hat Enterprise Linux のリモート管理インターフェイス。</description>
-    <description xml:lang="ko">Red Hat Enterprise Linux 용 원격 관리 인터페이스입니다.</description>
-    <description xml:lang="pt_BR">Interface de gerenciamento remoto para o Red Hat Enterprise Linux.</description>
-    <description xml:lang="ru">Интерфейс удаленного управления для Red Hat Enterprise Linux.</description>
-    <description xml:lang="zh_CN">Red Hat Enterprise Linux 的远程管理界面。</description>
-    <description xml:lang="zh_TW">紅帽企業Linux的遠程管理界面。</description>
+    <description>Remote management interface for EuroLinux.</description>
+    <description xml:lang="de">Fernverwaltungsschnittstelle für EuroLinux.</description>
+    <description xml:lang="es">Interfaz de administración remota para EuroLinux.</description>
+    <description xml:lang="fr">Interface de gestion à distance de EuroLinux.</description>
+    <description xml:lang="it">Interfaccia di gestione remota per EuroLinux.</description>
+    <description xml:lang="ja">EuroLinux のリモート管理インターフェイス。</description>
+    <description xml:lang="ko">EuroLinux 용 원격 관리 인터페이스입니다.</description>
+    <description xml:lang="pt_BR">Interface de gerenciamento remoto para o EuroLinux.</description>
+    <description xml:lang="ru">Интерфейс удаленного управления для EuroLinux.</description>
+    <description xml:lang="zh_CN">EuroLinux 的远程管理界面。</description>
+    <description xml:lang="zh_TW">EuroLinux的遠程管理界面。</description>
     <packagelist>
       <packagereq type="default">cockpit</packagereq>
     </packagelist>
@@ -1334,8 +1330,8 @@
       <packagereq type="mandatory">psacct</packagereq>
       <packagereq type="mandatory">quota</packagereq>
       <packagereq type="mandatory">realmd</packagereq>
-      <packagereq type="mandatory">redhat-release</packagereq>
-      <packagereq type="mandatory">redhat-release-eula</packagereq>
+      <packagereq type="mandatory">el-release</packagereq>
+      <packagereq type="mandatory">el-release-eula</packagereq>
       <packagereq type="mandatory">rsync</packagereq>
       <packagereq type="mandatory">sos</packagereq>
       <packagereq type="mandatory">sssd</packagereq>
@@ -1910,17 +1906,17 @@
     <name xml:lang="zh_CN">基本</name>
     <name xml:lang="zh_TW">基礎</name>
     <name xml:lang="zu">Isiqu</name>
-    <description>The standard installation of Red Hat Enterprise Linux.</description>
-    <description xml:lang="de">Die Standardinstallation von Red Hat Enterprise Linux.</description>
-    <description xml:lang="es">La instalación estándar de Red Hat Enterprise Linux.</description>
-    <description xml:lang="fr">Installation standard de Red Hat Enterprise Linux.</description>
-    <description xml:lang="it">L'installazione standard di Red Hat Enterprise Linux.</description>
-    <description xml:lang="ja">Red Hat Enterprise Linux の標準インストールです。</description>
-    <description xml:lang="ko">Red Hat Enterprise Linux의 표준 설치입니다.</description>
-    <description xml:lang="pt_BR">A instalação padrão do Red Hat Enterprise Linux.</description>
-    <description xml:lang="ru">Стандартная установка Red Hat Enterprise Linux.</description>
-    <description xml:lang="zh_CN">Red Hat Enterprise Linux 的标准安装。</description>
-    <description xml:lang="zh_TW">紅帽企業Linux的標準安裝。</description>
+    <description>The standard installation of EuroLinux.</description>
+    <description xml:lang="de">Die Standardinstallation von EuroLinux.</description>
+    <description xml:lang="es">La instalación estándar de EuroLinux.</description>
+    <description xml:lang="fr">Installation standard de EuroLinux.</description>
+    <description xml:lang="it">L'installazione standard di EuroLinux.</description>
+    <description xml:lang="ja">EuroLinux の標準インストールです。</description>
+    <description xml:lang="ko">EuroLinux의 표준 설치입니다.</description>
+    <description xml:lang="pt_BR">A instalação padrão do EuroLinux.</description>
+    <description xml:lang="ru">Стандартная установка EuroLinux.</description>
+    <description xml:lang="zh_CN">EuroLinux 的标准安装。</description>
+    <description xml:lang="zh_TW">EuroLinux的標準安裝。</description>
     <packagelist>
       <packagereq type="mandatory">acl</packagereq>
       <packagereq type="mandatory">at</packagereq>
@@ -1943,8 +1939,8 @@
       <packagereq type="mandatory">pciutils</packagereq>
       <packagereq type="mandatory">psacct</packagereq>
       <packagereq type="mandatory">quota</packagereq>
-      <packagereq type="mandatory">redhat-release</packagereq>
-      <packagereq type="mandatory">redhat-release-eula</packagereq>
+      <packagereq type="mandatory">el-release</packagereq>
+      <packagereq type="mandatory">el-release-eula</packagereq>
       <packagereq type="mandatory">sudo</packagereq>
       <packagereq type="mandatory">symlinks</packagereq>
       <packagereq type="mandatory">systemd-udev</packagereq>
@@ -1999,8 +1995,6 @@
       <packagereq type="optional">traceroute</packagereq>
       <packagereq type="optional">vdo-support</packagereq>
       <packagereq type="optional">zsh</packagereq>
-      <packagereq requires="redhat-release" type="conditional">libdnf-plugin-subscription-manager</packagereq>
-      <packagereq requires="redhat-release" type="conditional">subscription-manager-cockpit</packagereq>
     </packagelist>
   </group>
   <group>
@@ -2375,8 +2369,8 @@
       <packagereq type="mandatory">chrony</packagereq>
       <packagereq type="mandatory">polkit</packagereq>
       <packagereq type="mandatory">realmd</packagereq>
-      <packagereq type="mandatory">redhat-release</packagereq>
-      <packagereq type="mandatory">redhat-release-eula</packagereq>
+      <packagereq type="mandatory">el-release</packagereq>
+      <packagereq type="mandatory">el-release-eula</packagereq>
       <packagereq type="default">NetworkManager-config-server</packagereq>
       <packagereq type="default">NetworkManager-team</packagereq>
     </packagelist>
@@ -3424,18 +3418,18 @@
     <name xml:lang="ru">Пользовательская операционная система</name>
     <name xml:lang="zh_CN">定制操作系统</name>
     <name xml:lang="zh_TW">定制操作系統</name>
-    <description>Basic building block for a custom RHEL system.</description>
-    <description xml:lang="de">Grundbaustein für ein kundenspezifisches RHEL-System.</description>
-    <description xml:lang="es">Componente básico para un sistema RHEL personalizado.</description>
-    <description xml:lang="fr">Blocs de base pour personnaliser le système RHEL.</description>
-    <description xml:lang="it">Blocco di base per un sistema RHEL personalizzato.</description>
-    <description xml:lang="ja">カスタム RHEL システム用のベーシックビルディングブロック。</description>
-    <description xml:lang="ko">사용자 정의 RHEL 시스템의 기본 구성 요소.</description>
-    <description xml:lang="pt">Módulo básico para um sistema RHEL personalizado.</description>
-    <description xml:lang="pt_BR">Módulo básico para um sistema RHEL personalizado.</description>
-    <description xml:lang="ru">Базовый строительный блок для индивидуальной системы RHEL.</description>
-    <description xml:lang="zh_CN">定制 RHEL 系统的基础组件。</description>
-    <description xml:lang="zh_TW">自定義RHEL系統的基本構建塊。</description>
+    <description>Basic building block for a custom EL system.</description>
+    <description xml:lang="de">Grundbaustein für ein kundenspezifisches EL-System.</description>
+    <description xml:lang="es">Componente básico para un sistema EL personalizado.</description>
+    <description xml:lang="fr">Blocs de base pour personnaliser le système EL.</description>
+    <description xml:lang="it">Blocco di base per un sistema EL personalizzato.</description>
+    <description xml:lang="ja">カスタム EL システム用のベーシックビルディングブロック。</description>
+    <description xml:lang="ko">사용자 정의 EL 시스템의 기본 구성 요소.</description>
+    <description xml:lang="pt">Módulo básico para um sistema EL personalizado.</description>
+    <description xml:lang="pt_BR">Módulo básico para um sistema EL personalizado.</description>
+    <description xml:lang="ru">Базовый строительный блок для индивидуальной системы EL.</description>
+    <description xml:lang="zh_CN">定制 EL 系统的基础组件。</description>
+    <description xml:lang="zh_TW">自定義EL系統的基本構建塊。</description>
     <grouplist>
       <groupid>core</groupid>
     </grouplist>
