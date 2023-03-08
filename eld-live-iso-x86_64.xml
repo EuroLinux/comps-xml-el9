@@ -1,0 +1,1092 @@
+<?xml version="1.0" encoding="utf-8"?>
+<comps>
+  <group>
+    <id>base-x</id>
+    <default>true</default>
+    <uservisible>false</uservisible>
+    <display_order>1024</display_order>
+    <name>base-x</name>
+    <name xml:lang="de">base-x</name>
+    <name xml:lang="es">base-x</name>
+    <name xml:lang="fr">base-x</name>
+    <name xml:lang="it">base-x</name>
+    <name xml:lang="ja">base-x</name>
+    <name xml:lang="ko">base-x</name>
+    <name xml:lang="pt">base-x</name>
+    <name xml:lang="pt_BR">base-x</name>
+    <name xml:lang="ru">базовый</name>
+    <name xml:lang="zh_CN">base-x</name>
+    <name xml:lang="zh_TW">base-x</name>
+    <description>Local X.org display server</description>
+    <description xml:lang="de">Lokaler X.org-Anzeigeserver</description>
+    <description xml:lang="es">Servidor de pantalla X.org local</description>
+    <description xml:lang="fr">Serveur d'affichage d' X.org locale</description>
+    <description xml:lang="it">Server di visualizzazione X.org locale</description>
+    <description xml:lang="ja">ローカル X.org ディスプレイサーバー</description>
+    <description xml:lang="ko">로컬 X.org 디스플레이 서버</description>
+    <description xml:lang="pt">Servidor de exibição X.org local</description>
+    <description xml:lang="pt_BR">Servidor de exibição X.org local</description>
+    <description xml:lang="ru">Локальный сервер отображения X.org</description>
+    <description xml:lang="zh_CN">Local X.org 显示服务器</description>
+    <description xml:lang="zh_TW">本地X.org顯示服務器</description>
+    <packagelist>
+      <packagereq type="mandatory">glx-utils</packagereq>
+      <packagereq type="mandatory">mesa-dri-drivers</packagereq>
+      <packagereq type="mandatory">plymouth-system-theme</packagereq>
+      <packagereq type="mandatory">xorg-x11-drv-evdev</packagereq>
+      <packagereq type="mandatory">xorg-x11-drv-fbdev</packagereq>
+      <packagereq type="mandatory">xorg-x11-drv-libinput</packagereq>
+      <packagereq type="mandatory">xorg-x11-drv-vmware</packagereq>
+      <packagereq type="mandatory">xorg-x11-drv-wacom</packagereq>
+      <packagereq type="mandatory">xorg-x11-server-Xorg</packagereq>
+      <packagereq type="mandatory">xorg-x11-utils</packagereq>
+      <packagereq type="mandatory">xorg-x11-xauth</packagereq>
+      <packagereq type="mandatory">xorg-x11-xinit</packagereq>
+      <packagereq type="mandatory">xorg-x11-xinit-session</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>core</id>
+    <default>true</default>
+    <uservisible>false</uservisible>
+    <display_order>1024</display_order>
+    <name>Core</name>
+    <name xml:lang="af">Kern</name>
+    <name xml:lang="am">ማዕከላዊ ቦታ</name>
+    <name xml:lang="ar">اللبّ</name>
+    <name xml:lang="as">ভিত্তি</name>
+    <name xml:lang="bal">هستگ</name>
+    <name xml:lang="be">Падмурак</name>
+    <name xml:lang="bg">Основа</name>
+    <name xml:lang="bn">কোর</name>
+    <name xml:lang="bs">Jezgra</name>
+    <name xml:lang="ca">Nucli</name>
+    <name xml:lang="cs">Úplný základ</name>
+    <name xml:lang="cy">Craidd</name>
+    <name xml:lang="da">Grundlæggende</name>
+    <name xml:lang="de">Kern</name>
+    <name xml:lang="de_CH">Kern</name>
+    <name xml:lang="el">Πυρήνας</name>
+    <name xml:lang="en_GB">Core</name>
+    <name xml:lang="es">Núcleo</name>
+    <name xml:lang="et">Tuum</name>
+    <name xml:lang="fa">اصل</name>
+    <name xml:lang="fa_IR">اصل</name>
+    <name xml:lang="fi">Keskeiset</name>
+    <name xml:lang="fr">Core</name>
+    <name xml:lang="gl">Núcleo</name>
+    <name xml:lang="gu">મૂળ</name>
+    <name xml:lang="he">ליבה</name>
+    <name xml:lang="hi">कोर</name>
+    <name xml:lang="hr">Jezgra</name>
+    <name xml:lang="hu">Mag</name>
+    <name xml:lang="hy">Հիմք</name>
+    <name xml:lang="ia">Nucleo</name>
+    <name xml:lang="id">Inti</name>
+    <name xml:lang="ilo">Bugas</name>
+    <name xml:lang="is">Lágmarkskerfi</name>
+    <name xml:lang="it">Principale</name>
+    <name xml:lang="ja">コア</name>
+    <name xml:lang="ka">ბირთვი</name>
+    <name xml:lang="kn">ಅಂತಸ್ಸಾರ</name>
+    <name xml:lang="ko">코어</name>
+    <name xml:lang="lv">Pamatsistēma</name>
+    <name xml:lang="mai">कोर</name>
+    <name xml:lang="mk">Основни</name>
+    <name xml:lang="ml">കോറ്‍</name>
+    <name xml:lang="mr">कोर</name>
+    <name xml:lang="ms">Teras</name>
+    <name xml:lang="nb">Kjerne</name>
+    <name xml:lang="ne">कोर</name>
+    <name xml:lang="nl">Kern</name>
+    <name xml:lang="no">Kjerne</name>
+    <name xml:lang="nso">Bogare</name>
+    <name xml:lang="or">ପ୍ରମୂଖ</name>
+    <name xml:lang="pa">ਮੂਲ</name>
+    <name xml:lang="pl">Rdzeń</name>
+    <name xml:lang="pt">Núcleo</name>
+    <name xml:lang="pt_BR">Núcleo</name>
+    <name xml:lang="ro">Nucleu</name>
+    <name xml:lang="ru">Основа</name>
+    <name xml:lang="si">න්‍යෂ්ඨිය</name>
+    <name xml:lang="sk">Jadro</name>
+    <name xml:lang="sl">Jedro</name>
+    <name xml:lang="sq">Bërthama</name>
+    <name xml:lang="sr">Срж</name>
+    <name xml:lang="sr@Latn">Srž</name>
+    <name xml:lang="sr@latin">Srž</name>
+    <name xml:lang="sv">Grund</name>
+    <name xml:lang="ta">கோர்</name>
+    <name xml:lang="te">అంతర్భాగం</name>
+    <name xml:lang="tg">Система</name>
+    <name xml:lang="th">แกนหลัก</name>
+    <name xml:lang="tr">Çekirdek</name>
+    <name xml:lang="uk">Основа</name>
+    <name xml:lang="ur">مرکز</name>
+    <name xml:lang="vi">Lõi</name>
+    <name xml:lang="zh">核心</name>
+    <name xml:lang="zh_CN">核心</name>
+    <name xml:lang="zh_TW">核心</name>
+    <name xml:lang="zu">Okuyikhona</name>
+    <description>Minimal host installation</description>
+    <description xml:lang="fr">Installation hôte minimale</description>
+    <description xml:lang="ja">最小ホストインストール</description>
+    <description xml:lang="ko">최소 호스트 설치</description>
+    <description xml:lang="zh_CN">最小主机安装</description>
+    <packagelist>
+      <packagereq type="mandatory">rsyslog</packagereq>
+      <packagereq type="default">python3-libselinux</packagereq>
+      <packagereq type="optional">initial-setup</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>fonts</id>
+    <default>true</default>
+    <uservisible>false</uservisible>
+    <display_order>1024</display_order>
+    <name>Fonts</name>
+    <name xml:lang="ar">خطوط</name>
+    <name xml:lang="as">ফন্টসমূহ</name>
+    <name xml:lang="bal">فونت آن</name>
+    <name xml:lang="bg">Шрифтове</name>
+    <name xml:lang="bn">ফন্ট</name>
+    <name xml:lang="ca">Tipus de lletra</name>
+    <name xml:lang="cs">Sada fontů</name>
+    <name xml:lang="da">Skrifttyper</name>
+    <name xml:lang="de">Schriftarten</name>
+    <name xml:lang="de_CH">Schriftarten</name>
+    <name xml:lang="el">Γραμματοσειρές</name>
+    <name xml:lang="es">Fuentes</name>
+    <name xml:lang="et">Kirjatüübid (fondid)</name>
+    <name xml:lang="eu">Letra-tipoak</name>
+    <name xml:lang="fi">Kirjasimet</name>
+    <name xml:lang="fr">Polices</name>
+    <name xml:lang="gu">ફોન્ટ</name>
+    <name xml:lang="he">גופנים</name>
+    <name xml:lang="hi">फ़ॉन्ट</name>
+    <name xml:lang="hu">Betűkészletek</name>
+    <name xml:lang="ia">Characteres</name>
+    <name xml:lang="id">Huruf</name>
+    <name xml:lang="is">Letur</name>
+    <name xml:lang="it">Caratteri</name>
+    <name xml:lang="ja">フォント</name>
+    <name xml:lang="kn">ಅಕ್ಷರಶೈಲಿಗಳು</name>
+    <name xml:lang="ko">글꼴</name>
+    <name xml:lang="lv">Fonti</name>
+    <name xml:lang="mai">फान्ट्स</name>
+    <name xml:lang="ml">ലിപികള്‍</name>
+    <name xml:lang="mr">फॉन्ट</name>
+    <name xml:lang="ms">Font</name>
+    <name xml:lang="nb">Skrifter</name>
+    <name xml:lang="ne">फन्ट</name>
+    <name xml:lang="nl">Lettertypes</name>
+    <name xml:lang="or">ଅକ୍ଷରରୂପଗୁଡ଼ିକ</name>
+    <name xml:lang="pa">ਫੌਂਟ</name>
+    <name xml:lang="pl">Czcionki</name>
+    <name xml:lang="pt">Tipos de Letra</name>
+    <name xml:lang="pt_BR">Tipos de Letra</name>
+    <name xml:lang="ru">Шрифты</name>
+    <name xml:lang="sk">Písma</name>
+    <name xml:lang="sr">Фонтови</name>
+    <name xml:lang="sr@Latn">Fontovi</name>
+    <name xml:lang="sr@latin">Fontovi</name>
+    <name xml:lang="sv">Typsnitt</name>
+    <name xml:lang="ta">எழுத்துருக்கள்</name>
+    <name xml:lang="te">ఫాంట్లు</name>
+    <name xml:lang="tg">Ҳарфҳо</name>
+    <name xml:lang="th">แบบอักษร</name>
+    <name xml:lang="uk">Шрифти</name>
+    <name xml:lang="zh">字型</name>
+    <name xml:lang="zh_CN">字体</name>
+    <name xml:lang="zh_TW">字型</name>
+    <description>Fonts packages for rendering text on the desktop.</description>
+    <description xml:lang="de">Schriftet Pakete für das Rendern von Text auf dem Desktop.</description>
+    <description xml:lang="es">Paquetes de fuentes para renderizar texto en el escritorio.</description>
+    <description xml:lang="fr">Packages de police pour le rendu du texte sur le bureau.</description>
+    <description xml:lang="it">Font per il rendering del testo sul desktop.</description>
+    <description xml:lang="ja">デスクトップでテキストをレンダリングするフォントパッケージです。</description>
+    <description xml:lang="ko">바탕 화면에서 텍스트를 표시하기 위한 글꼴 패키지입니다.</description>
+    <description xml:lang="pt_BR">Pacotes de fontes para renderizar texto no desktop.</description>
+    <description xml:lang="ru">Пакеты шрифтов для визуализации текста на рабочем столе.</description>
+    <description xml:lang="zh_CN">用于在桌面显示文字的字体软件包。</description>
+    <description xml:lang="zh_TW">用於在桌面上呈現文本的字體包。</description>
+    <packagelist>
+      <packagereq type="default">abattis-cantarell-fonts</packagereq>
+      <packagereq type="default">google-noto-emoji-color-fonts</packagereq>
+      <packagereq type="default">google-noto-sans-cjk-ttc-fonts</packagereq>
+      <packagereq type="default">google-noto-sans-gurmukhi-fonts</packagereq>
+      <packagereq type="default">google-noto-sans-sinhala-vf-fonts</packagereq>
+      <packagereq type="default">google-noto-serif-cjk-ttc-fonts</packagereq>
+      <packagereq type="default">jomolhari-fonts</packagereq>
+      <packagereq type="default">julietaula-montserrat-fonts</packagereq>
+      <packagereq type="default">khmer-os-system-fonts</packagereq>
+      <packagereq type="default">liberation-mono-fonts</packagereq>
+      <packagereq type="default">liberation-sans-fonts</packagereq>
+      <packagereq type="default">liberation-serif-fonts</packagereq>
+      <packagereq type="default">lohit-assamese-fonts</packagereq>
+      <packagereq type="default">lohit-bengali-fonts</packagereq>
+      <packagereq type="default">lohit-devanagari-fonts</packagereq>
+      <packagereq type="default">lohit-gujarati-fonts</packagereq>
+      <packagereq type="default">lohit-kannada-fonts</packagereq>
+      <packagereq type="default">lohit-odia-fonts</packagereq>
+      <packagereq type="default">lohit-tamil-fonts</packagereq>
+      <packagereq type="default">lohit-telugu-fonts</packagereq>
+      <packagereq type="default">paktype-naskh-basic-fonts</packagereq>
+      <packagereq type="default">pt-sans-fonts</packagereq>
+      <packagereq type="default">sil-abyssinica-fonts</packagereq>
+      <packagereq type="default">sil-nuosu-fonts</packagereq>
+      <packagereq type="default">sil-padauk-fonts</packagereq>
+      <packagereq type="default">smc-meera-fonts</packagereq>
+      <packagereq type="default">stix-fonts</packagereq>
+      <packagereq type="default">thai-scalable-waree-fonts</packagereq>
+      <packagereq type="optional">fontawesome-fonts</packagereq>
+      <packagereq type="optional">google-droid-sans-fonts</packagereq>
+      <packagereq type="optional">google-droid-sans-mono-fonts</packagereq>
+      <packagereq type="optional">google-droid-serif-fonts</packagereq>
+      <packagereq type="optional">google-noto-sans-armenian-fonts</packagereq>
+      <packagereq type="optional">google-noto-sans-avestan-fonts</packagereq>
+      <packagereq type="optional">google-noto-sans-bengali-fonts</packagereq>
+      <packagereq type="optional">google-noto-sans-bengali-ui-fonts</packagereq>
+      <packagereq type="optional">google-noto-sans-brahmi-fonts</packagereq>
+      <packagereq type="optional">google-noto-sans-carian-fonts</packagereq>
+      <packagereq type="optional">google-noto-sans-cherokee-fonts</packagereq>
+      <packagereq type="optional">google-noto-sans-coptic-fonts</packagereq>
+      <packagereq type="optional">google-noto-sans-deseret-fonts</packagereq>
+      <packagereq type="optional">google-noto-sans-devanagari-fonts</packagereq>
+      <packagereq type="optional">google-noto-sans-devanagari-ui-fonts</packagereq>
+      <packagereq type="optional">google-noto-sans-egyptian-hieroglyphs-fonts</packagereq>
+      <packagereq type="optional">google-noto-sans-ethiopic-fonts</packagereq>
+      <packagereq type="optional">google-noto-sans-fonts</packagereq>
+      <packagereq type="optional">google-noto-sans-georgian-fonts</packagereq>
+      <packagereq type="optional">google-noto-sans-glagolitic-fonts</packagereq>
+      <packagereq type="optional">google-noto-sans-gujarati-fonts</packagereq>
+      <packagereq type="optional">google-noto-sans-gujarati-ui-fonts</packagereq>
+      <packagereq type="optional">google-noto-sans-hebrew-fonts</packagereq>
+      <packagereq type="optional">google-noto-sans-imperial-aramaic-fonts</packagereq>
+      <packagereq type="optional">google-noto-sans-kaithi-fonts</packagereq>
+      <packagereq type="optional">google-noto-sans-kannada-fonts</packagereq>
+      <packagereq type="optional">google-noto-sans-kannada-ui-fonts</packagereq>
+      <packagereq type="optional">google-noto-sans-kayah-li-fonts</packagereq>
+      <packagereq type="optional">google-noto-sans-kharoshthi-fonts</packagereq>
+      <packagereq type="optional">google-noto-sans-khmer-fonts</packagereq>
+      <packagereq type="optional">google-noto-sans-khmer-ui-fonts</packagereq>
+      <packagereq type="optional">google-noto-sans-lao-fonts</packagereq>
+      <packagereq type="optional">google-noto-sans-lao-ui-fonts</packagereq>
+      <packagereq type="optional">google-noto-sans-lycian-fonts</packagereq>
+      <packagereq type="optional">google-noto-sans-lydian-fonts</packagereq>
+      <packagereq type="optional">google-noto-sans-malayalam-fonts</packagereq>
+      <packagereq type="optional">google-noto-sans-malayalam-ui-fonts</packagereq>
+      <packagereq type="optional">google-noto-sans-nko-fonts</packagereq>
+      <packagereq type="optional">google-noto-sans-old-south-arabian-fonts</packagereq>
+      <packagereq type="optional">google-noto-sans-old-turkic-fonts</packagereq>
+      <packagereq type="optional">google-noto-sans-osmanya-fonts</packagereq>
+      <packagereq type="optional">google-noto-sans-phoenician-fonts</packagereq>
+      <packagereq type="optional">google-noto-sans-shavian-fonts</packagereq>
+      <packagereq type="optional">google-noto-sans-sinhala-fonts</packagereq>
+      <packagereq type="optional">google-noto-sans-symbols-fonts</packagereq>
+      <packagereq type="optional">google-noto-sans-tamil-fonts</packagereq>
+      <packagereq type="optional">google-noto-sans-tamil-ui-fonts</packagereq>
+      <packagereq type="optional">google-noto-sans-telugu-fonts</packagereq>
+      <packagereq type="optional">google-noto-sans-telugu-ui-fonts</packagereq>
+      <packagereq type="optional">google-noto-sans-thaana-fonts</packagereq>
+      <packagereq type="optional">google-noto-sans-thai-fonts</packagereq>
+      <packagereq type="optional">google-noto-sans-thai-ui-fonts</packagereq>
+      <packagereq type="optional">google-noto-sans-ugaritic-fonts</packagereq>
+      <packagereq type="optional">google-noto-sans-vai-fonts</packagereq>
+      <packagereq type="optional">google-noto-serif-armenian-fonts</packagereq>
+      <packagereq type="optional">google-noto-serif-fonts</packagereq>
+      <packagereq type="optional">google-noto-serif-georgian-fonts</packagereq>
+      <packagereq type="optional">google-noto-serif-khmer-fonts</packagereq>
+      <packagereq type="optional">google-noto-serif-lao-fonts</packagereq>
+      <packagereq type="optional">google-noto-serif-thai-fonts</packagereq>
+      <packagereq type="optional">gubbi-fonts</packagereq>
+      <packagereq type="optional">kacst-art-fonts</packagereq>
+      <packagereq type="optional">kacst-book-fonts</packagereq>
+      <packagereq type="optional">kacst-decorative-fonts</packagereq>
+      <packagereq type="optional">kacst-digital-fonts</packagereq>
+      <packagereq type="optional">kacst-farsi-fonts</packagereq>
+      <packagereq type="optional">kacst-letter-fonts</packagereq>
+      <packagereq type="optional">kacst-naskh-fonts</packagereq>
+      <packagereq type="optional">kacst-office-fonts</packagereq>
+      <packagereq type="optional">kacst-one-fonts</packagereq>
+      <packagereq type="optional">kacst-pen-fonts</packagereq>
+      <packagereq type="optional">kacst-poster-fonts</packagereq>
+      <packagereq type="optional">kacst-qurn-fonts</packagereq>
+      <packagereq type="optional">kacst-screen-fonts</packagereq>
+      <packagereq type="optional">kacst-title-fonts</packagereq>
+      <packagereq type="optional">kacst-titlel-fonts</packagereq>
+      <packagereq type="optional">khmer-os-battambang-fonts</packagereq>
+      <packagereq type="optional">khmer-os-bokor-fonts</packagereq>
+      <packagereq type="optional">khmer-os-content-fonts</packagereq>
+      <packagereq type="optional">khmer-os-fasthand-fonts</packagereq>
+      <packagereq type="optional">khmer-os-freehand-fonts</packagereq>
+      <packagereq type="optional">khmer-os-handwritten-fonts</packagereq>
+      <packagereq type="optional">khmer-os-metal-chrieng-fonts</packagereq>
+      <packagereq type="optional">khmer-os-muol-fonts-all</packagereq>
+      <packagereq type="optional">khmer-os-siemreap-fonts</packagereq>
+      <packagereq type="optional">lato-fonts</packagereq>
+      <packagereq type="optional">lohit-gurmukhi-fonts</packagereq>
+      <packagereq type="optional">lohit-marathi-fonts</packagereq>
+      <packagereq type="optional">madan-fonts</packagereq>
+      <packagereq type="optional">navilu-fonts</packagereq>
+      <packagereq type="optional">open-sans-fonts</packagereq>
+      <packagereq type="optional">overpass-fonts</packagereq>
+      <packagereq type="optional">paktype-naqsh-fonts</packagereq>
+      <packagereq type="optional">paktype-tehreer-fonts</packagereq>
+      <packagereq type="optional">paratype-pt-sans-caption-fonts</packagereq>
+      <packagereq type="optional">saab-fonts</packagereq>
+      <packagereq type="optional">sil-scheherazade-fonts</packagereq>
+      <packagereq type="optional">smc-rachana-fonts</packagereq>
+      <packagereq type="optional">thai-scalable-garuda-fonts</packagereq>
+      <packagereq type="optional">thai-scalable-kinnari-fonts</packagereq>
+      <packagereq type="optional">thai-scalable-loma-fonts</packagereq>
+      <packagereq type="optional">thai-scalable-norasi-fonts</packagereq>
+      <packagereq type="optional">thai-scalable-purisa-fonts</packagereq>
+      <packagereq type="optional">thai-scalable-sawasdee-fonts</packagereq>
+      <packagereq type="optional">thai-scalable-tlwgmono-fonts</packagereq>
+      <packagereq type="optional">thai-scalable-tlwgtypewriter-fonts</packagereq>
+      <packagereq type="optional">thai-scalable-tlwgtypist-fonts</packagereq>
+      <packagereq type="optional">thai-scalable-tlwgtypo-fonts</packagereq>
+      <packagereq type="optional">thai-scalable-umpush-fonts</packagereq>
+      <packagereq type="optional">xorg-x11-fonts-100dpi</packagereq>
+      <packagereq type="optional">xorg-x11-fonts-75dpi</packagereq>
+      <packagereq type="optional">xorg-x11-fonts-ISO8859-1-100dpi</packagereq>
+      <packagereq type="optional">xorg-x11-fonts-ISO8859-1-75dpi</packagereq>
+      <packagereq type="optional">xorg-x11-fonts-ISO8859-14-100dpi</packagereq>
+      <packagereq type="optional">xorg-x11-fonts-ISO8859-14-75dpi</packagereq>
+      <packagereq type="optional">xorg-x11-fonts-ISO8859-15-100dpi</packagereq>
+      <packagereq type="optional">xorg-x11-fonts-ISO8859-15-75dpi</packagereq>
+      <packagereq type="optional">xorg-x11-fonts-ISO8859-2-100dpi</packagereq>
+      <packagereq type="optional">xorg-x11-fonts-ISO8859-2-75dpi</packagereq>
+      <packagereq type="optional">xorg-x11-fonts-ISO8859-9-100dpi</packagereq>
+      <packagereq type="optional">xorg-x11-fonts-ISO8859-9-75dpi</packagereq>
+      <packagereq type="optional">xorg-x11-fonts-Type1</packagereq>
+      <packagereq type="optional">xorg-x11-fonts-cyrillic</packagereq>
+      <packagereq type="optional">xorg-x11-fonts-ethiopic</packagereq>
+      <packagereq type="optional">xorg-x11-fonts-misc</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>gnome-desktop</id>
+    <default>true</default>
+    <uservisible>false</uservisible>
+    <display_order>1024</display_order>
+    <name>GNOME</name>
+    <name xml:lang="af">GNOME</name>
+    <name xml:lang="am">ኖም</name>
+    <name xml:lang="ar">جينوم</name>
+    <name xml:lang="as">GNOME</name>
+    <name xml:lang="be">GNOME</name>
+    <name xml:lang="bn">GNOME</name>
+    <name xml:lang="bs">GNOME</name>
+    <name xml:lang="ca">GNOME</name>
+    <name xml:lang="cs">GNOME</name>
+    <name xml:lang="cy">GNOME</name>
+    <name xml:lang="de">GNOME</name>
+    <name xml:lang="de_CH">GNOME</name>
+    <name xml:lang="en_GB">GNOME</name>
+    <name xml:lang="es">GNOME</name>
+    <name xml:lang="eu">GNOME</name>
+    <name xml:lang="fa">گنوم</name>
+    <name xml:lang="fa_IR">گنوم</name>
+    <name xml:lang="fi">Gnome</name>
+    <name xml:lang="fr">GNOME</name>
+    <name xml:lang="gl">GNOME</name>
+    <name xml:lang="gu">GNOME</name>
+    <name xml:lang="hi">GNOME</name>
+    <name xml:lang="hr">GNOME</name>
+    <name xml:lang="hu">GNOME</name>
+    <name xml:lang="hy">GNOME</name>
+    <name xml:lang="id">GNOME</name>
+    <name xml:lang="ilo">GNOME</name>
+    <name xml:lang="it">GNOME</name>
+    <name xml:lang="ja">GNOME</name>
+    <name xml:lang="ka">GNOME</name>
+    <name xml:lang="kn">GNOME</name>
+    <name xml:lang="ko">GNOME</name>
+    <name xml:lang="lv">GNOME</name>
+    <name xml:lang="mk">Гном</name>
+    <name xml:lang="ml">ഗ്നോം</name>
+    <name xml:lang="mr">GNOME</name>
+    <name xml:lang="no">GNOME</name>
+    <name xml:lang="nso">GNOME</name>
+    <name xml:lang="or">GNOME</name>
+    <name xml:lang="pa">ਗਨੋਮ</name>
+    <name xml:lang="pl">GNOME</name>
+    <name xml:lang="pt">GNOME</name>
+    <name xml:lang="pt_BR">GNOME</name>
+    <name xml:lang="ru">GNOME</name>
+    <name xml:lang="si">GNOME</name>
+    <name xml:lang="sl">GNOME</name>
+    <name xml:lang="sq">GNOME</name>
+    <name xml:lang="ta">GNOME</name>
+    <name xml:lang="te">GNOME</name>
+    <name xml:lang="th">GNOME</name>
+    <name xml:lang="tr">GNOME</name>
+    <name xml:lang="uk">GNOME</name>
+    <name xml:lang="ur">جينوم</name>
+    <name xml:lang="vi">GNOME</name>
+    <name xml:lang="zh">GNOME</name>
+    <name xml:lang="zh_CN">GNOME</name>
+    <name xml:lang="zh_TW">GNOME</name>
+    <name xml:lang="zu">I-GNOME</name>
+    <description>GNOME is a highly intuitive and user-friendly desktop environment.</description>
+    <description xml:lang="de">GNOME ist eine sehr intuitive und benutzerfreundliche Desktop-Umgebung.</description>
+    <description xml:lang="es">GNOME es un entorno de escritorio muy intuitivo y fácil de usar.</description>
+    <description xml:lang="fr">GNOME est un environnement de bureau convivial et hautement intuitif.</description>
+    <description xml:lang="it">GNOME è un ambiente desktop molto intuitivo e facile da usare.</description>
+    <description xml:lang="ja">GNOME は非常に直観的でユーザーフレンドリーなデスクトップ環境です。</description>
+    <description xml:lang="ko">GNOME은 사용하기 쉽고 사용자 친화적인 데스크탑 환경입니다.</description>
+    <description xml:lang="pt_BR">O GNOME é um ambiente de trabalho altamente intuitivo e fácil de usar.</description>
+    <description xml:lang="ru">GNOME - это интуитивно понятное и удобное окружение рабочего стола.</description>
+    <description xml:lang="zh_CN">GNOME 是一个非常直观且用户友好的桌面环境。</description>
+    <description xml:lang="zh_TW">GNOME是一個高度直觀且用戶友好的桌面環境。</description>
+    <packagelist>
+      <packagereq type="mandatory">PackageKit-command-not-found</packagereq>
+      <packagereq type="mandatory">PackageKit-gtk3-module</packagereq>
+      <packagereq type="mandatory">at-spi2-atk</packagereq>
+      <packagereq type="mandatory">at-spi2-core</packagereq>
+      <packagereq type="mandatory">baobab</packagereq>
+      <packagereq type="mandatory">cheese</packagereq>
+      <packagereq type="mandatory">chrome-gnome-shell</packagereq>
+      <packagereq type="mandatory">dconf</packagereq>
+      <packagereq type="mandatory">eog</packagereq>
+      <packagereq type="mandatory">evince</packagereq>
+      <packagereq type="mandatory">evince-nautilus</packagereq>
+      <packagereq type="mandatory">fprintd-pam</packagereq>
+      <packagereq type="mandatory">gdm</packagereq>
+      <packagereq type="mandatory">gedit</packagereq>
+      <packagereq type="mandatory">gnome-bluetooth</packagereq>
+      <packagereq type="mandatory">gnome-calculator</packagereq>
+      <packagereq type="mandatory">gnome-characters</packagereq>
+      <packagereq type="mandatory">gnome-classic-session</packagereq>
+      <packagereq type="mandatory">gnome-color-manager</packagereq>
+      <packagereq type="mandatory">gnome-control-center</packagereq>
+      <packagereq type="mandatory">gnome-disk-utility</packagereq>
+      <packagereq type="mandatory">gnome-font-viewer</packagereq>
+      <packagereq type="mandatory">gnome-initial-setup</packagereq>
+      <packagereq type="mandatory">gnome-logs</packagereq>
+      <packagereq type="mandatory">gnome-remote-desktop</packagereq>
+      <packagereq type="mandatory">gnome-screenshot</packagereq>
+      <packagereq type="mandatory">gnome-session-wayland-session</packagereq>
+      <packagereq type="mandatory">gnome-session-xsession</packagereq>
+      <packagereq type="mandatory">gnome-settings-daemon</packagereq>
+      <packagereq type="mandatory">gnome-shell</packagereq>
+      <packagereq type="mandatory">gnome-shell-extension-background-logo</packagereq>
+      <packagereq type="mandatory">gnome-software</packagereq>
+      <packagereq type="mandatory">gnome-system-monitor</packagereq>
+      <packagereq type="mandatory">gnome-terminal</packagereq>
+      <packagereq type="mandatory">gnome-terminal-nautilus</packagereq>
+      <packagereq type="mandatory">gnome-user-docs</packagereq>
+      <packagereq type="mandatory">gvfs-fuse</packagereq>
+      <packagereq type="mandatory">gvfs-goa</packagereq>
+      <packagereq type="mandatory">gvfs-gphoto2</packagereq>
+      <packagereq type="mandatory">gvfs-mtp</packagereq>
+      <packagereq type="mandatory">gvfs-smb</packagereq>
+      <packagereq type="mandatory">libcanberra-gtk3</packagereq>
+      <packagereq type="mandatory">librsvg2</packagereq>
+      <packagereq type="mandatory">libsane-hpaio</packagereq>
+      <packagereq type="mandatory">mesa-dri-drivers</packagereq>
+      <packagereq type="mandatory">nautilus</packagereq>
+      <packagereq type="mandatory">orca</packagereq>
+      <packagereq type="mandatory">sane-backends-drivers-scanners</packagereq>
+      <packagereq type="mandatory">sushi</packagereq>
+      <packagereq type="mandatory">totem</packagereq>
+      <packagereq type="mandatory">tracker</packagereq>
+      <packagereq type="mandatory">tracker-miners</packagereq>
+      <packagereq type="mandatory">xdg-desktop-portal</packagereq>
+      <packagereq type="mandatory">xdg-desktop-portal-gnome</packagereq>
+      <packagereq type="mandatory">xdg-desktop-portal-gtk</packagereq>
+      <packagereq type="mandatory">xdg-user-dirs-gtk</packagereq>
+      <packagereq type="mandatory">yelp</packagereq>
+      <packagereq type="mandatory">yelp-tools</packagereq>
+      <packagereq type="optional">gedit-plugins</packagereq>
+      <packagereq type="optional">gnome-backgrounds</packagereq>
+      <packagereq type="optional">gnome-shell-extension-apps-menu</packagereq>
+      <packagereq type="optional">gnome-shell-extension-auto-move-windows</packagereq>
+      <packagereq type="optional">gnome-shell-extension-dash-to-dock</packagereq>
+      <packagereq type="optional">gnome-shell-extension-desktop-icons</packagereq>
+      <packagereq type="optional">gnome-shell-extension-drive-menu</packagereq>
+      <packagereq type="optional">gnome-shell-extension-launch-new-instance</packagereq>
+      <packagereq type="optional">gnome-shell-extension-native-window-placement</packagereq>
+      <packagereq type="optional">gnome-shell-extension-places-menu</packagereq>
+      <packagereq type="optional">gnome-shell-extension-screenshot-window-sizer</packagereq>
+      <packagereq type="optional">gnome-shell-extension-user-theme</packagereq>
+      <packagereq type="optional">gnome-shell-extension-window-list</packagereq>
+      <packagereq type="optional">gnome-shell-extension-windowsNavigator</packagereq>
+      <packagereq type="optional">gnome-shell-extension-workspace-indicator</packagereq>
+      <packagereq type="optional">initial-setup-gui</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>guest-desktop-agents</id>
+    <default>true</default>
+    <uservisible>false</uservisible>
+    <display_order>1024</display_order>
+    <name>Guest Desktop Agents</name>
+    <name xml:lang="as">অতিথি ডেস্কটপ সহায়কসমূহ</name>
+    <name xml:lang="cs">Agenti pro pracovní prostředí hostů</name>
+    <name xml:lang="de">Gast-Desktop-Agenten</name>
+    <name xml:lang="de_CH">Gast-Desktop-Agenten</name>
+    <name xml:lang="es">Agentes de escritorio de huésped</name>
+    <name xml:lang="fr">Agents de bureau invités</name>
+    <name xml:lang="gu">મહેમાન ડૅસ્કટોપ એજન્ટો</name>
+    <name xml:lang="hi">अतिथि डेस्कटॉप प्रतिनिधि</name>
+    <name xml:lang="it">Agenti desktop del guest</name>
+    <name xml:lang="ja">ゲストデスクトップエージェント</name>
+    <name xml:lang="kn">ಅತಿಥಿ ಗಣಕತೆರೆ ಮಧ್ಯವರ್ತಿಗಳು</name>
+    <name xml:lang="ko">게스트 데스크탑 에이전트</name>
+    <name xml:lang="ml">ഗസ്റ്റ് പണിയിടത്തിനുള്ള ഏജന്റുകള്‍</name>
+    <name xml:lang="mr">अतिथी डेस्कटॉप एजंट्स</name>
+    <name xml:lang="or">ଅତିଥି ଡେସ୍କଟପ ସଦସ୍ୟମାନେ</name>
+    <name xml:lang="pa">ਪ੍ਰਾਹੁਣੇ ਡੈਸਕਟਾਪ ਏਜੰਟ</name>
+    <name xml:lang="pl">Agenty pulpitu gościa</name>
+    <name xml:lang="pt">Agentes de Desktop de Convidado</name>
+    <name xml:lang="pt_BR">Agentes de Desktop de Convidado</name>
+    <name xml:lang="ru">Агенты гостевого рабочего стола</name>
+    <name xml:lang="ta">விருந்தினர் பணிமேடை முகவர்கள்</name>
+    <name xml:lang="te">అతిథి డెస్కుటాప్ ఏజెంట్లు</name>
+    <name xml:lang="uk">Стільничні агенти гостьових систем</name>
+    <name xml:lang="zh">客座桌面環境代理程式</name>
+    <name xml:lang="zh_CN">虚拟机桌面代理</name>
+    <name xml:lang="zh_TW">客座桌面環境代理程式</name>
+    <description>Agents used when running as a virtualized desktop.</description>
+    <description xml:lang="as">এটা ভাৰছুৱেলাইজ্ড ডেস্কটপ ৰূপে চলোতে ব্যৱহৃত সহায়কসমূহ।</description>
+    <description xml:lang="cs">Nástroje používané s virtualizovaným pracovním prostředím.</description>
+    <description xml:lang="de">Verwendete Agenten bei Ausführung als virtualisierter Desktop.</description>
+    <description xml:lang="de_CH">Verwendete Agenten bei Ausführung als virtualisierter Desktop.</description>
+    <description xml:lang="es">Agentes utilizados cuando se ejecutan como un escritorio virtualizado.</description>
+    <description xml:lang="fr">Agents utilisés lors d'une exécution en tant que bureau virtualisé.</description>
+    <description xml:lang="gu">વર્ચ્યુઅલાઇઝ્ડ ડેસ્કટોપ તરીકે ચલાવતી વખતે વપરાતા એજન્ટો.</description>
+    <description xml:lang="hi">प्रतिनिधि प्रयुक्त जब बतौर वर्चुअलाइज्ड डेस्कटॉप चले.</description>
+    <description xml:lang="it">Agenti usati durante l'esecuzione come desktop virtualizzato.</description>
+    <description xml:lang="ja">仮想化したデスクトップとして稼働する場合に使用するエージェントです。</description>
+    <description xml:lang="kn">ವರ್ಚುವಲ್ ಆದ ಗಣಕತೆರೆಯಾಗಿ ಚಲಾಯಿತಗೊಳ್ಳುವಾಗ ಬಳಸಲಾಗುವ ಮಧ್ಯವರ್ತಿಗಳು.</description>
+    <description xml:lang="ko">가상화 데스크탑으로 실행할 때 사용되는 에이전트.</description>
+    <description xml:lang="ml">ഒരു വിര്‍ച്ച്വലൈസ്ഡ് പണിയിടമായി പ്രവര്‍ത്തിയ്ക്കുമ്പോള്‍ ഉപയോഗിയ്ക്കുന്ന ഏജന്റുകള്‍</description>
+    <description xml:lang="mr">वर्च्युअलाइज्ड डेस्कटॉप अंतर्गत चालवतेवेळी वापरण्याजोगी एजंट्स.</description>
+    <description xml:lang="or">ଆଭାସୀ ଡେସ୍କଟପ ଭାବରେ ଚଲାଉଥିବା ସମୟରେ ବ୍ୟବହୃତ ସଦସ୍ୟ।</description>
+    <description xml:lang="pa">ਜਦੋਂ ਆਭਾਸੀਕ੍ਰਿਤ ਡੈਸਕਟਾਪ ਵਜੋਂ ਚਲਾਏ ਜਾਣ ਤਾਂ ਵਰਤੇ ਜਾਂਦੇ ਏਜੰਟ।</description>
+    <description xml:lang="pl">Agenty używane podczas działania jako wirtualizowane środowisko graficzne.</description>
+    <description xml:lang="pt">Agentes usados ao serem executados como desktop virtualizados.</description>
+    <description xml:lang="pt_BR">Agentes usados ao serem executados como desktop virtualizados.</description>
+    <description xml:lang="ru">Агенты виртуального рабочего стола.</description>
+    <description xml:lang="ta">ஒரு மெய்நிகராக்கப்பட்ட பணிமேடையாக இயக்கப்படும் போது பயன்படுத்தப்படும் முகவர்கள்.</description>
+    <description xml:lang="te">వర్చ్యులైజ్డు డెస్కుటాప్ వలె నడుచుచున్నప్పుడు ఏజెంట్లు ఉపయోగించబడెను.</description>
+    <description xml:lang="uk">Агенти, що використовуються під час роботи у режимі віртуалізованої стільниці.</description>
+    <description xml:lang="zh">以虛擬化桌面環境執行時所使用的代理程式。</description>
+    <description xml:lang="zh_CN">作为虚拟桌面运行时使用的代理。</description>
+    <description xml:lang="zh_TW">以虛擬化桌面環境執行時所使用的代理程式。</description>
+    <packagelist>
+      <packagereq type="mandatory">hyperv-daemons</packagereq>
+      <packagereq type="mandatory">open-vm-tools-desktop</packagereq>
+      <packagereq type="mandatory">qemu-guest-agent</packagereq>
+      <packagereq type="mandatory">spice-vdagent</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>hardware-support</id>
+    <default>true</default>
+    <uservisible>false</uservisible>
+    <display_order>1024</display_order>
+    <name>Hardware Support</name>
+    <name xml:lang="de">Hardware-Support</name>
+    <name xml:lang="es">Soporte de Hardware</name>
+    <name xml:lang="fr">Support Hardware</name>
+    <name xml:lang="it">Supporto hardware</name>
+    <name xml:lang="ja">ハードウェアサポート</name>
+    <name xml:lang="ko">하드웨어 지원</name>
+    <name xml:lang="pt_BR">Suporte a Hardware</name>
+    <name xml:lang="ru">Поддержка аппаратного обеспечения</name>
+    <name xml:lang="zh_CN">硬件支持</name>
+    <name xml:lang="zh_TW">硬件支持</name>
+    <description>This group is a collection of tools for various hardware specific utilities.</description>
+    <description xml:lang="de">Diese Gruppe ist eine Sammlung von Werkzeugen für verschiedene hardwarespezifische Dienstprogramme.</description>
+    <description xml:lang="es">Este grupo es una colección de herramientas para varias utilidades específicas de hardware.</description>
+    <description xml:lang="fr">Ce groupe est un ensemble d'outils qui servent à des utilitaires hardware spécifiques.</description>
+    <description xml:lang="it">Questo gruppo è una raccolta di strumenti per varie utilità specifiche dell'hardware.</description>
+    <description xml:lang="ja">このグループは、各種ハードウェア固有のユーティリティー用のツールの集合です。</description>
+    <description xml:lang="ko">이 그룹은 각종 하드웨어 관련 유틸리티 툴 모음입니다.</description>
+    <description xml:lang="pt">Este grupo é uma coleção de ferramentas para vários utilitários específicos de hardware.</description>
+    <description xml:lang="pt_BR">Este grupo é uma coleção de ferramentas para vários utilitários específicos de hardware.</description>
+    <description xml:lang="ru">Эта группа представляет собой набор инструментов для различных специфических аппаратных утилит.</description>
+    <description xml:lang="zh_CN">这个组包括了一系列与特定硬件相关的工具程序。</description>
+    <description xml:lang="zh_TW">該組是各種硬件特定實用程序的工具集合。</description>
+    <packagelist>
+      <packagereq type="default">bolt</packagereq>
+      <packagereq type="default">iwl100-firmware</packagereq>
+      <packagereq type="default">iwl1000-firmware</packagereq>
+      <packagereq type="default">iwl105-firmware</packagereq>
+      <packagereq type="default">iwl135-firmware</packagereq>
+      <packagereq type="default">iwl2000-firmware</packagereq>
+      <packagereq type="default">iwl2030-firmware</packagereq>
+      <packagereq type="default">iwl3160-firmware</packagereq>
+      <packagereq type="default">iwl5000-firmware</packagereq>
+      <packagereq type="default">iwl5150-firmware</packagereq>
+      <packagereq type="default">iwl6000g2a-firmware</packagereq>
+      <packagereq type="default">iwl6000g2b-firmware</packagereq>
+      <packagereq type="default">iwl6050-firmware</packagereq>
+      <packagereq type="default">iwl7260-firmware</packagereq>
+      <packagereq type="default">libertas-sd8787-firmware</packagereq>
+      <packagereq type="default">netronome-firmware</packagereq>
+      <packagereq type="default">usb_modeswitch</packagereq>
+      <packagereq type="optional">lsscsi</packagereq>
+      <packagereq type="optional">opensc</packagereq>
+      <packagereq type="optional">openssl-pkcs11</packagereq>
+      <packagereq type="optional">pcsc-lite</packagereq>
+      <packagereq type="optional">pcsc-lite-ccid</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>internet-browser</id>
+    <default>true</default>
+    <uservisible>false</uservisible>
+    <display_order>1024</display_order>
+    <name>Internet Browser</name>
+    <name xml:lang="as">ইন্টাৰনেট ব্ৰাউছাৰ</name>
+    <name xml:lang="bn">ইন্টারনেট ব্রাউজার</name>
+    <name xml:lang="cs">Prohlížeč internetu</name>
+    <name xml:lang="de">Internet-Browser</name>
+    <name xml:lang="de_CH">Internet-Browser</name>
+    <name xml:lang="es">Navegador de Internet</name>
+    <name xml:lang="fr">Navigateur Internet</name>
+    <name xml:lang="gu">ઇન્ટરનેટ બ્રાઉઝર</name>
+    <name xml:lang="hi">इंटरनेट ब्राउज़र</name>
+    <name xml:lang="ia">Navigator de Rete</name>
+    <name xml:lang="it">Internet Browser</name>
+    <name xml:lang="ja">インターネットブラウザー</name>
+    <name xml:lang="kn">ಅಂತರಜಾಲ ವೀಕ್ಷಕ</name>
+    <name xml:lang="ko">인터넷 브라우저</name>
+    <name xml:lang="ml">ഇന്റര്‍നെറ്റ് ബ്രൌസര്‍</name>
+    <name xml:lang="mr">इंटरनेट ब्राऊजर</name>
+    <name xml:lang="or">ଇଣ୍ଟରନେଟ ବ୍ରାଉଜର</name>
+    <name xml:lang="pa">ਇੰਟਰਨੈੱਟ ਬਰਾਊਜ਼ਿੰਗ</name>
+    <name xml:lang="pl">Przeglądarka internetowa</name>
+    <name xml:lang="pt">Navegador de Internet</name>
+    <name xml:lang="pt_BR">Navegador de Internet</name>
+    <name xml:lang="ru">Интернет-браузер</name>
+    <name xml:lang="sv">Internetbläddrare</name>
+    <name xml:lang="ta">இணைய உலாவி</name>
+    <name xml:lang="te">ఇంటర్నెట్ బ్రౌజర్</name>
+    <name xml:lang="uk">Програма для перегляду інтернету</name>
+    <name xml:lang="zh">網路瀏覽器</name>
+    <name xml:lang="zh_CN">互联网浏览器</name>
+    <name xml:lang="zh_TW">網路瀏覽器</name>
+    <description>The Firefox web browser</description>
+    <description xml:lang="de">Der Firefox-Webbrowser</description>
+    <description xml:lang="es">El navegador web Firefox</description>
+    <description xml:lang="fr">Navigateur web Firefox</description>
+    <description xml:lang="it">Il browser web Firefox</description>
+    <description xml:lang="ja">Firefox Web ブラウザー</description>
+    <description xml:lang="ko">Firefox 웹브라우저</description>
+    <description xml:lang="pt_BR">O navegador web Firefox</description>
+    <description xml:lang="ru">Веб-браузер Firefox</description>
+    <description xml:lang="zh_CN">Firefox web 浏览器</description>
+    <description xml:lang="zh_TW">Firefox Web瀏覽器</description>
+    <packagelist>
+      <packagereq type="mandatory">firefox</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>multimedia</id>
+    <default>true</default>
+    <uservisible>false</uservisible>
+    <display_order>1024</display_order>
+    <name>Multimedia</name>
+    <name xml:lang="ar">وسائط متعددة</name>
+    <name xml:lang="as">মাল্টিমিডিয়া</name>
+    <name xml:lang="bn">মাল্টি-মিডিয়া</name>
+    <name xml:lang="bs">Multimedija</name>
+    <name xml:lang="ca">Multimèdia</name>
+    <name xml:lang="cs">Multimédia</name>
+    <name xml:lang="cy">Amlgyfryngau</name>
+    <name xml:lang="da">Multimedie</name>
+    <name xml:lang="de">Multimedia</name>
+    <name xml:lang="de_CH">Multimedia</name>
+    <name xml:lang="en_GB">Multimedia</name>
+    <name xml:lang="es">Multimedia</name>
+    <name xml:lang="eu">Multimedia</name>
+    <name xml:lang="fi">Multimedia</name>
+    <name xml:lang="fr">Multimédia</name>
+    <name xml:lang="gu">મલ્ટીમીડિયા</name>
+    <name xml:lang="hi">मल्टीमीडिया</name>
+    <name xml:lang="hr">Multimedija</name>
+    <name xml:lang="hu">Multimédia</name>
+    <name xml:lang="hy">Մուլտիմեդիա</name>
+    <name xml:lang="id">Multimedia</name>
+    <name xml:lang="it">Multimedia</name>
+    <name xml:lang="ja">マルチメディア</name>
+    <name xml:lang="ka">მულტიმედია</name>
+    <name xml:lang="kn">ಮಲ್ಟಿಮೀಡಿಯಾ</name>
+    <name xml:lang="ko">멀티미디어</name>
+    <name xml:lang="lv">Multimedija</name>
+    <name xml:lang="ml">മള്‍ട്ടിമീഡിയാ</name>
+    <name xml:lang="mr">मल्टिमिडीया</name>
+    <name xml:lang="or">ଏକାଧିକ ପ୍ରସାର ମାଧ୍ଯମ</name>
+    <name xml:lang="pa">ਮਲਟੀਮੀਡੀਆ</name>
+    <name xml:lang="pl">Multimedia</name>
+    <name xml:lang="pt">Multimídia</name>
+    <name xml:lang="pt_BR">Multimídia</name>
+    <name xml:lang="ru">Мультимедиа</name>
+    <name xml:lang="si">බහු මාධ්‍ය</name>
+    <name xml:lang="sl">Večpredstavnost</name>
+    <name xml:lang="sq">Multimedia</name>
+    <name xml:lang="sv">Multimedia</name>
+    <name xml:lang="ta">பல்லூடகம்</name>
+    <name xml:lang="te">బహుళమాద్యమం</name>
+    <name xml:lang="th">มัลติมีเดีย</name>
+    <name xml:lang="tr">Çoklu Ortam</name>
+    <name xml:lang="uk">Мультимедіа</name>
+    <name xml:lang="zh">多媒體</name>
+    <name xml:lang="zh_CN">多媒体</name>
+    <name xml:lang="zh_TW">多媒體</name>
+    <description>Audio/video framework common to desktops</description>
+    <description xml:lang="de">Audio/Video-Framework, das auf Desktops üblich ist</description>
+    <description xml:lang="es">Marco de trabajo de audio/vídeo común a los ordenadores de sobremesa</description>
+    <description xml:lang="fr">Environnement audio/vidéo commun aux bureaux</description>
+    <description xml:lang="it">Struttura audio/video comune ai desktop</description>
+    <description xml:lang="ja">デスクトップに共通のオーディオ／ビデオフレームワーク</description>
+    <description xml:lang="ko">데스크탑 용 범용 오디어/비디오 프레임워트</description>
+    <description xml:lang="pt_BR">Estrutura de áudio/vídeo comum a desktops</description>
+    <description xml:lang="ru">Аудио/видео рамки, общие для настольных компьютеров</description>
+    <description xml:lang="zh_CN">桌面通用的音频/视频框架</description>
+    <description xml:lang="zh_TW">桌面常見的音頻/視頻框架</description>
+    <packagelist>
+      <packagereq type="mandatory">PackageKit-gstreamer-plugin</packagereq>
+      <packagereq type="mandatory">alsa-ucm</packagereq>
+      <packagereq type="mandatory">alsa-utils</packagereq>
+      <packagereq type="mandatory">gstreamer1-plugins-bad-free</packagereq>
+      <packagereq type="mandatory">gstreamer1-plugins-good</packagereq>
+      <packagereq type="mandatory">gstreamer1-plugins-ugly-free</packagereq>
+      <packagereq type="mandatory">pipewire</packagereq>
+      <packagereq type="mandatory">pipewire-alsa</packagereq>
+      <packagereq type="mandatory">pipewire-gstreamer</packagereq>
+      <packagereq type="mandatory">pipewire-jack-audio-connection-kit</packagereq>
+      <packagereq type="mandatory">pipewire-pulseaudio</packagereq>
+      <packagereq type="mandatory">pipewire-utils</packagereq>
+      <packagereq type="optional">pavucontrol</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>networkmanager-submodules</id>
+    <default>true</default>
+    <uservisible>false</uservisible>
+    <display_order>1024</display_order>
+    <name>Common NetworkManager submodules</name>
+    <name xml:lang="fr">Sous-modules de NetworkManager communément utilisés</name>
+    <name xml:lang="ja">一般的な NetworkManager サブモジュール</name>
+    <name xml:lang="ko">일반적인 NetworkManager 서브 모듈</name>
+    <name xml:lang="zh_CN">常用 NetworkManager 子模块</name>
+    <description>This group contains NetworkManager submodules that are commonly used, but may not be wanted in some streamlined configurations.</description>
+    <description xml:lang="fr">Ce groupe contient des sous-modules de NetworkManager communément utilisés, mais qui risquent de ne pas être désirables pour certaines configurations simplifiées.</description>
+    <description xml:lang="ja">このグループには、一般的に使用されており複雑な設定が可能な NetworkManager サブモジュールが含まれます。</description>
+    <description xml:lang="ko">이 그룹에는 일부 단순화된 구성에서는 필요하지 않을 수 있는 일반적으로 사용되는 NetworkManager 서브 모듈이 포함되어 있습니다.</description>
+    <description xml:lang="zh_CN">常用的、但可能在一些简化配置中不需要的 NetworkManager 子模块。</description>
+    <packagelist>
+      <packagereq type="default">dnsmasq</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>print-client</id>
+    <default>true</default>
+    <uservisible>false</uservisible>
+    <display_order>1024</display_order>
+    <name>Printing Client</name>
+    <name xml:lang="as">প্ৰিন্টিং ক্লাএন্ট</name>
+    <name xml:lang="cs">Tiskový klient</name>
+    <name xml:lang="de">Druck-Client</name>
+    <name xml:lang="de_CH">Druck-Client</name>
+    <name xml:lang="es">Cliente de impresión</name>
+    <name xml:lang="fr">Client d'impression</name>
+    <name xml:lang="gu">છાપન ક્લાયન્ટ</name>
+    <name xml:lang="hi">क्लाइंट की छपाई</name>
+    <name xml:lang="it">Client di stampa</name>
+    <name xml:lang="ja">印刷クライアント</name>
+    <name xml:lang="kn">ಮುದ್ರಣ ಕ್ಲೈಂಟ್</name>
+    <name xml:lang="ko">인쇄 클라이언트</name>
+    <name xml:lang="ml">പ്രിന്റ് ചെയ്യുന്നതിനുള്ള ക്ലയന്റ്</name>
+    <name xml:lang="mr">छपाई क्लाएंट</name>
+    <name xml:lang="or">ମୂଦ୍ରଣ କ୍ଲାଏଣ୍ଟ</name>
+    <name xml:lang="pa">ਛਪਾਈ ਕਲਾਈਂਟ</name>
+    <name xml:lang="pl">Klient drukowania</name>
+    <name xml:lang="pt">Cliente de Impressão</name>
+    <name xml:lang="pt_BR">Cliente de Impressão</name>
+    <name xml:lang="ru">Клиент печати</name>
+    <name xml:lang="ta">அச்சிடல்  கிளையன்</name>
+    <name xml:lang="te">ముద్రించు క్లైంట్</name>
+    <name xml:lang="uk">Клієнт друку</name>
+    <name xml:lang="zh">列印客戶端</name>
+    <name xml:lang="zh_CN">打印客户端</name>
+    <name xml:lang="zh_TW">列印客戶端</name>
+    <description>Tools for printing to a local printer or a remote print server.</description>
+    <description xml:lang="as">স্থানীয় প্ৰিন্টাৰৰ বা দূৰবৰ্তী প্ৰিন্ট চাৰ্ভাৰত প্ৰিন্ট কৰাৰ বাবে ব্যৱহৃত সঁজুলিসমূহ।</description>
+    <description xml:lang="bn">স্থানীয় প্রিন্টার অথবা দূরবর্তী প্রিন্ট সার্ভারের মধ্যে প্রিন্ট করার জন্য ব্যবহৃত সরঞ্জাম।</description>
+    <description xml:lang="cs">Nástroje pro tisk na lokálních tiskárnách nebo vzdálených tiskových serverech.</description>
+    <description xml:lang="de">Tools für das Drucken auf einem lokalen oder einem entfernten Drucker-Server.</description>
+    <description xml:lang="de_CH">Tools für das Drucken auf einem lokalen oder einem entfernten Drucker-Server.</description>
+    <description xml:lang="es">Herramientas para imprimir en una impresora local o un servidor de impresión remoto.</description>
+    <description xml:lang="fr">Outils pour l'impression sur une imprimante locale ou sur un serveur d'impression à distance.</description>
+    <description xml:lang="gu">સ્થાનિય પ્રિન્ટર અથવા દૂરસ્થ છાપન સર્વર માં છાપવા માટે સાધનો.</description>
+    <description xml:lang="hi">किसी स्थानीय मुद्रक या दूरस्थ मुद्रण सर्वर में छपाई के लिए औजार.</description>
+    <description xml:lang="ia">Utensiles pro imprimer sur un imprimitor local o per un servitor de impression remote.</description>
+    <description xml:lang="it">Tool per la stampa su di una stampante locale o un server di stampa locale.</description>
+    <description xml:lang="ja">ローカルのプリンターやリモートプリントサーバーへ印刷するためのツールです。</description>
+    <description xml:lang="kn">ಒಂದು ಸ್ಥಳೀಯ ಮುದ್ರಕಕ್ಕೆ ಅಥವ ದೂರಸ್ಥ ಮುದ್ರಣ ಪೂರೈಕೆಗಣಕಕ್ಕೆ ಮುದ್ರಿಸಲು ಉಪಕರಣಗಳು.</description>
+    <description xml:lang="ko">로컬 프린터와 원격 프린트 서버에 인쇄를 지원하는 툴.</description>
+    <description xml:lang="ml">ഒരു ലോക്കല്‍ പ്രിന്റര്‍ അല്ലെങ്കില്‍ റിമോട്ട് പ്രിന്റ് സര്‍വറിലേക്ക് പ്രിന്റ് ചെയ്യുന്നതിനുള്ള ഉപകരണങ്ങള്‍.</description>
+    <description xml:lang="mr">स्थानीय छपाईयंत्र किंवा रिमोट छपाई सर्व्हरकरीता छपाईकरीता साधने.</description>
+    <description xml:lang="or">ଗୋଟିଏ ସ୍ଥାନୀୟ ମୁଦ୍ରଣୀ କିମ୍ବା ସୁଦୂର ମୁଦ୍ରଣୀ ସର୍ଭରରେ ମୁଦ୍ରଣ ପାଇଁ ସାଧନଗୁଡ଼ିକ।</description>
+    <description xml:lang="pa">ਇੱਕ ਲੋਕਲ ਪਰਿੰਟਰ ਜਾਂ ਇੱਕ ਰਿਮੋਟ ਪਰਿੰਟਰ ਤੇ ਪਰਿੰਟਿੰਗ ਲਈ ਟੂਲ।</description>
+    <description xml:lang="pl">Narzędzia do drukowania za pomocą lokalnej drukarki lub zdalnego serwera druku.</description>
+    <description xml:lang="pt">Ferramentas para impressão em uma impressora local ou servidor de impressão remota.</description>
+    <description xml:lang="pt_BR">Ferramentas para impressão em uma impressora local ou servidor de impressão remota.</description>
+    <description xml:lang="ru">Средства для печати на локальном принтере или удаленном сервере печати.</description>
+    <description xml:lang="sv">Verktyg för utskrift till en lokal skrivare eller fjärrskrivarserver.</description>
+    <description xml:lang="ta">ஒரு உள்ளமை அச்சடிப்பான் அல்லது ஒரு தொலை அச்சு சேவையகத்தை அச்சடிப்பதற்கான கருவிகள்.</description>
+    <description xml:lang="te">స్థానిక ముద్రణాయంత్రముకు లేదా రిమోట్ ముద్రణా సేవికకు ముద్రించుటకు సాధనములు.</description>
+    <description xml:lang="uk">Програми для друку на локальному принтері або на віддаленому сервері друку.</description>
+    <description xml:lang="zh">用來列印至本機列印機或是遠端列印伺服器的工具。</description>
+    <description xml:lang="zh_CN">在本地打印机和远程打印服务器中打印的工具。</description>
+    <description xml:lang="zh_TW">用來列印至本機列印機或是遠端列印伺服器的工具。</description>
+    <packagelist>
+      <packagereq type="mandatory">cups</packagereq>
+      <packagereq type="mandatory">cups-pk-helper</packagereq>
+      <packagereq type="mandatory">enscript</packagereq>
+      <packagereq type="default">colord</packagereq>
+      <packagereq type="default">gutenprint</packagereq>
+      <packagereq type="default">gutenprint-cups</packagereq>
+      <packagereq type="default">gutenprint-doc</packagereq>
+      <packagereq type="default">paps</packagereq>
+      <packagereq type="default">pnm2ppa</packagereq>
+      <packagereq type="default">system-config-printer-udev</packagereq>
+      <packagereq type="optional">bluez-cups</packagereq>
+      <packagereq type="optional">hplip</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>standard</id>
+    <default>true</default>
+    <uservisible>false</uservisible>
+    <display_order>1024</display_order>
+    <name>Standard</name>
+    <name xml:lang="de">Standard</name>
+    <name xml:lang="es">Estándar</name>
+    <name xml:lang="fr">Standard</name>
+    <name xml:lang="it">Standard</name>
+    <name xml:lang="ja">標準</name>
+    <name xml:lang="ko">표준</name>
+    <name xml:lang="pt">Padrão</name>
+    <name xml:lang="pt_BR">Padrão</name>
+    <name xml:lang="ru">Стандарт</name>
+    <name xml:lang="zh_CN">标准安装</name>
+    <name xml:lang="zh_TW">標準</name>
+    <description>The standard installation of EuroLinux.</description>
+    <description xml:lang="de">Die Standardinstallation von EuroLinux.</description>
+    <description xml:lang="es">La instalación estándar de EuroLinux.</description>
+    <description xml:lang="fr">Installation standard de EuroLinux.</description>
+    <description xml:lang="it">L'installazione standard di EuroLinux.</description>
+    <description xml:lang="ja">EuroLinux の標準インストールです。</description>
+    <description xml:lang="ko">EuroLinux의 표준 설치입니다.</description>
+    <description xml:lang="pt_BR">A instalação padrão do EuroLinux.</description>
+    <description xml:lang="ru">Стандартная установка EuroLinux.</description>
+    <description xml:lang="zh_CN">EuroLinux 的标准安装。</description>
+    <description xml:lang="zh_TW">EuroLinux的標準安裝。</description>
+    <packagelist>
+      <packagereq type="mandatory">acl</packagereq>
+      <packagereq type="mandatory">at</packagereq>
+      <packagereq type="mandatory">attr</packagereq>
+      <packagereq type="mandatory">bc</packagereq>
+      <packagereq type="mandatory">cpio</packagereq>
+      <packagereq type="mandatory">crontabs</packagereq>
+      <packagereq type="mandatory">cyrus-sasl-plain</packagereq>
+      <packagereq type="mandatory">dbus</packagereq>
+      <packagereq type="mandatory">ed</packagereq>
+      <packagereq type="mandatory">file</packagereq>
+      <packagereq type="mandatory">irqbalance</packagereq>
+      <packagereq type="mandatory">kpatch</packagereq>
+      <packagereq type="mandatory">kpatch-dnf</packagereq>
+      <packagereq type="mandatory">logrotate</packagereq>
+      <packagereq type="mandatory">lsof</packagereq>
+      <packagereq type="mandatory">mcelog</packagereq>
+      <packagereq type="mandatory">microcode_ctl</packagereq>
+      <packagereq type="mandatory">net-tools</packagereq>
+      <packagereq type="mandatory">pciutils</packagereq>
+      <packagereq type="mandatory">psacct</packagereq>
+      <packagereq type="mandatory">quota</packagereq>
+      <packagereq type="mandatory">el-release</packagereq>
+      <packagereq type="mandatory">el-release-eula</packagereq>
+      <packagereq type="mandatory">sudo</packagereq>
+      <packagereq type="mandatory">symlinks</packagereq>
+      <packagereq type="mandatory">systemd-udev</packagereq>
+      <packagereq type="mandatory">tar</packagereq>
+      <packagereq type="mandatory">tree</packagereq>
+      <packagereq type="mandatory">tuned</packagereq>
+      <packagereq type="mandatory">util-linux-user</packagereq>
+      <packagereq type="default">bash-completion</packagereq>
+      <packagereq type="default">bluez</packagereq>
+      <packagereq type="default">bpftool</packagereq>
+      <packagereq type="default">bzip2</packagereq>
+      <packagereq type="default">chrony</packagereq>
+      <packagereq type="default">cockpit</packagereq>
+      <packagereq type="default">cryptsetup</packagereq>
+      <packagereq type="default">dos2unix</packagereq>
+      <packagereq type="default">dosfstools</packagereq>
+      <packagereq type="default">ethtool</packagereq>
+      <packagereq type="default">gnupg2</packagereq>
+      <packagereq type="default">iprutils</packagereq>
+      <packagereq type="default">kmod-kvdo</packagereq>
+      <packagereq type="default">ledmon</packagereq>
+      <packagereq type="default">lvm2</packagereq>
+      <packagereq type="default">mailcap</packagereq>
+      <packagereq type="default">man-pages</packagereq>
+      <packagereq type="default">mdadm</packagereq>
+      <packagereq type="default">mlocate</packagereq>
+      <packagereq type="default">mtr</packagereq>
+      <packagereq type="default">nano</packagereq>
+      <packagereq type="default">nvme-cli</packagereq>
+      <packagereq type="default">realmd</packagereq>
+      <packagereq type="default">rsync</packagereq>
+      <packagereq type="default">smartmontools</packagereq>
+      <packagereq type="default">sos</packagereq>
+      <packagereq type="default">sssd</packagereq>
+      <packagereq type="default">strace</packagereq>
+      <packagereq type="default">teamd</packagereq>
+      <packagereq type="default">time</packagereq>
+      <packagereq type="default">unzip</packagereq>
+      <packagereq type="default">usbutils</packagereq>
+      <packagereq type="default">vdo</packagereq>
+      <packagereq type="default">virt-what</packagereq>
+      <packagereq type="default">which</packagereq>
+      <packagereq type="default">words</packagereq>
+      <packagereq type="default">xfsdump</packagereq>
+      <packagereq type="default">zip</packagereq>
+      <packagereq type="optional">cifs-utils</packagereq>
+      <packagereq type="optional">cockpit-doc</packagereq>
+      <packagereq type="optional">fwupd</packagereq>
+      <packagereq type="optional">ima-evm-utils</packagereq>
+      <packagereq type="optional">nfs-utils</packagereq>
+      <packagereq type="optional">nvmetcli</packagereq>
+      <packagereq type="optional">traceroute</packagereq>
+      <packagereq type="optional">vdo-support</packagereq>
+      <packagereq type="optional">zsh</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>workstation-product</id>
+    <default>true</default>
+    <uservisible>false</uservisible>
+    <display_order>1024</display_order>
+    <name>Workstation product core</name>
+    <name xml:lang="de">Workstation-Produktkern</name>
+    <name xml:lang="es">Núcleo de producto de la estación de trabajo</name>
+    <name xml:lang="fr">Composants de base Station de travail</name>
+    <name xml:lang="it">Nucleo di prodotto della stazione di lavoro</name>
+    <name xml:lang="ja">ワークステーション製品コア</name>
+    <name xml:lang="ko">워크스테이션 제품 코어</name>
+    <name xml:lang="pt">Núcleo do produto da estação de trabalho</name>
+    <name xml:lang="pt_BR">Núcleo do produto da estação de trabalho</name>
+    <name xml:lang="ru">Ядро продукта рабочей станции</name>
+    <name xml:lang="zh_CN">工作站产品核心</name>
+    <name xml:lang="zh_TW">工作站產品核心</name>
+    <description>Packages mandatory for the workstation product.</description>
+    <description xml:lang="de">Für das Workstation-Produkt sind Pakete obligatorisch.</description>
+    <description xml:lang="es">Los paquetes son obligatorios para el producto de la estación de trabajo.</description>
+    <description xml:lang="fr">Les packages obligatoires pour le produit Station de travail.</description>
+    <description xml:lang="it">Pacchetti obbligatori per il prodotto per la postazione di lavoro.</description>
+    <description xml:lang="ja">ワークステーション製品に必須のパッケージです。</description>
+    <description xml:lang="ko">워크스테이션 제품에 대한 필수 패키지입니다.</description>
+    <description xml:lang="pt_BR">Pacotes obrigatórios para o produto estação de trabalho.</description>
+    <description xml:lang="ru">Упаковки, обязательные для использования на рабочей станции.</description>
+    <description xml:lang="zh_CN">工作站产品必需的软件包。</description>
+    <description xml:lang="zh_TW">工作站產品必需的包。</description>
+    <packagelist>
+      <packagereq type="mandatory">adwaita-qt5</packagereq>
+      <packagereq type="mandatory">alsa-sof-firmware</packagereq>
+      <packagereq type="mandatory">bind-utils</packagereq>
+      <packagereq type="mandatory">evolution</packagereq>
+      <packagereq type="mandatory">evolution-ews</packagereq>
+      <packagereq type="mandatory">evolution-help</packagereq>
+      <packagereq type="mandatory">git</packagereq>
+      <packagereq type="mandatory">google-noto-emoji-fonts</packagereq>
+      <packagereq type="mandatory">hunspell</packagereq>
+      <packagereq type="mandatory">ibus-anthy</packagereq>
+      <packagereq type="mandatory">ibus-gtk2</packagereq>
+      <packagereq type="mandatory">ibus-gtk3</packagereq>
+      <packagereq type="mandatory">ibus-hangul</packagereq>
+      <packagereq type="mandatory">ibus-libpinyin</packagereq>
+      <packagereq type="mandatory">ibus-libzhuyin</packagereq>
+      <packagereq type="mandatory">ibus-m17n</packagereq>
+      <packagereq type="mandatory">ibus-typing-booster</packagereq>
+      <packagereq type="mandatory">nmap-ncat</packagereq>
+      <packagereq type="mandatory">pinentry-gnome3</packagereq>
+      <packagereq type="mandatory">pinfo</packagereq>
+      <packagereq type="mandatory">plymouth</packagereq>
+      <packagereq type="mandatory">qgnomeplatform</packagereq>
+      <packagereq type="mandatory">qt5-qtbase</packagereq>
+      <packagereq type="mandatory">qt5-qtbase-gui</packagereq>
+      <packagereq type="mandatory">qt5-qtdeclarative</packagereq>
+      <packagereq type="mandatory">qt5-qtxmlpatterns</packagereq>
+      <packagereq type="mandatory">setroubleshoot</packagereq>
+      <packagereq type="mandatory">telnet</packagereq>
+      <packagereq type="mandatory">thermald</packagereq>
+      <packagereq type="mandatory">xorg-x11-drv-libinput</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>eld-setup</id>
+    <name>eld-setup</name>
+    <packagelist>
+      <packagereq type="mandatory">eld-setup</packagereq>
+      <packagereq type="default">eld-libreoffice-ribbon</packagereq>
+    </packagelist>
+  </group>
+
+  <environment>
+    <id>eld</id>
+    <name>EuroLinux Desktop</name>
+    <description>Long time support, stable desktop environment.</description>
+    <description xml:lang="cs">Uživatelsky přívětivé podnikové desktopové prostředí.</description>
+    <description xml:lang="de">Benutzerfreundliche Desktop-Umgebung für Unternehmen.</description>
+    <description xml:lang="de_CH">Benutzerfreundliche Desktop-Umgebung für Unternehmen.</description>
+    <description xml:lang="es">Entorno de escritorio empresarial fácil de usar.</description>
+    <description xml:lang="fr">Environnement de bureau d'entreprise convivial.</description>
+    <description xml:lang="gu">વપરાશકર્તા મૈત્રીપૂર્ણ એન્ટરપ્રાઇઝ ડેસ્કટોપ પર્યાવરણ.</description>
+    <description xml:lang="hi">उपयोगकर्ता के अनुकूल उद्यम डेस्कटॉप वातावरण।</description>
+    <description xml:lang="it">Ambiente desktop aziendale intuitivo.</description>
+    <description xml:lang="ja">ユーザーフレンドリーなエンタープライズデスクトップ環境。</description>
+    <description xml:lang="kn">ಬಳಕೆದಾರ ಸ್ನೇಹಿ ಎಂಟರ್u200cಪ್ರೈಸ್ ಡೆಸ್ಕ್u200cಟಾಪ್ ಪರಿಸರ.</description>
+    <description xml:lang="ko">사용자 친화적인 엔터프라이즈 데스크탑 환경.</description>
+    <description xml:lang="ml">ഉപയോക്തൃ-സൗഹൃദ എന്റർപ്രൈസ് ഡെസ്ക്ടോപ്പ് പരിസ്ഥിതി.</description>
+    <description xml:lang="mr">वापरकर्ता अनुकूल एंटरप्राइझ डेस्कटॉप वातावरण.</description>
+    <description xml:lang="or">ଉପଭୋକ୍ତା-ଅନୁକୂଳ ଉଦ୍ୟୋଗ ଡେସ୍କଟପ୍ ପରିବେଶ |</description>
+    <description xml:lang="pa">ਉਪਭੋਗਤਾ-ਅਨੁਕੂਲ ਐਂਟਰਪ੍ਰਾਈਜ਼ ਡੈਸਕਟਾਪ ਵਾਤਾਵਰਣ।</description>
+    <description xml:lang="pl">Przyjazne dla użytkownika środowisko pulpitu korporacyjnego.</description>
+    <description xml:lang="pt">Ambiente de desktop empresarial fácil de usar.</description>
+    <description xml:lang="pt_BR">Ambiente de desktop empresarial fácil de usar.</description>
+    <description xml:lang="ru">Удобная среда рабочего стола предприятия.</description>
+    <description xml:lang="ta">பயனர் நட்பு நிறுவன டெஸ்க்டாப் சூழல்.</description>
+    <description xml:lang="te">యూజర్ ఫ్రెండ్లీ ఎంటర్u200cప్రైజ్ డెస్క్u200cటాప్ వాతావరణం.</description>
+    <description xml:lang="uk">Зручне робоче середовище підприємства.</description>
+    <description xml:lang="zh">用户友好的企业桌面环境。</description>
+    <description xml:lang="zh_CN">用户友好的企业桌面环境。</description>
+    <description xml:lang="zh_TW">用戶友好的企業桌面環境。</description>
+    <grouplist>
+      <groupid>base-x</groupid>
+      <groupid>core</groupid>
+      <groupid>fonts</groupid>
+      <groupid>gnome-desktop</groupid>
+      <groupid>guest-desktop-agents</groupid>
+      <groupid>hardware-support</groupid>
+      <groupid>internet-browser</groupid>
+      <groupid>multimedia</groupid>
+      <groupid>networkmanager-submodules</groupid>
+      <groupid>print-client</groupid>
+      <groupid>standard</groupid>
+      <groupid>workstation-product</groupid>
+      <groupid>eld-setup</groupid>
+      <groupid>office-suite</groupid>
+    </grouplist>
+    <optionlist>
+    </optionlist>
+  </environment>
+</comps>
