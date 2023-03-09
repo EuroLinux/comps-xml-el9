@@ -134,6 +134,85 @@
     <description xml:lang="ko">최소 호스트 설치</description>
     <description xml:lang="zh_CN">最小主机安装</description>
     <packagelist>
+      <packagereq type="mandatory">audit</packagereq>
+      <packagereq type="mandatory">basesystem</packagereq>
+      <packagereq type="mandatory">bash</packagereq>
+      <packagereq type="mandatory">coreutils</packagereq>
+      <packagereq type="mandatory">cronie</packagereq>
+      <packagereq type="mandatory">crypto-policies</packagereq>
+      <packagereq type="mandatory">crypto-policies-scripts</packagereq>
+      <packagereq type="mandatory">curl</packagereq>
+      <packagereq type="mandatory">dnf</packagereq>
+      <packagereq type="mandatory">e2fsprogs</packagereq>
+      <packagereq type="mandatory">filesystem</packagereq>
+      <packagereq type="mandatory">firewalld</packagereq>
+      <packagereq type="mandatory">glibc</packagereq>
+      <packagereq type="mandatory">grubby</packagereq>
+      <packagereq type="mandatory">hostname</packagereq>
+      <packagereq type="mandatory">iproute</packagereq>
+      <packagereq type="mandatory">iproute-tc</packagereq>
+      <packagereq type="mandatory">iputils</packagereq>
+      <packagereq type="mandatory">irqbalance</packagereq>
+      <packagereq type="mandatory">kbd</packagereq>
+      <packagereq type="mandatory">kexec-tools</packagereq>
+      <packagereq type="mandatory">less</packagereq>
+      <packagereq type="mandatory">logrotate</packagereq>
+      <packagereq type="mandatory">man-db</packagereq>
+      <packagereq type="mandatory">ncurses</packagereq>
+      <packagereq type="mandatory">openssh-clients</packagereq>
+      <packagereq type="mandatory">openssh-server</packagereq>
+      <packagereq type="mandatory">p11-kit</packagereq>
+      <packagereq type="mandatory">parted</packagereq>
+      <packagereq type="mandatory">passwd</packagereq>
+      <packagereq type="mandatory">policycoreutils</packagereq>
+      <packagereq type="mandatory">procps-ng</packagereq>
+      <packagereq type="mandatory">rootfiles</packagereq>
+      <packagereq type="mandatory">rpm</packagereq>
+      <packagereq type="mandatory">rpm-plugin-audit</packagereq>
+      <packagereq type="mandatory">selinux-policy-targeted</packagereq>
+      <packagereq type="mandatory">setup</packagereq>
+      <packagereq type="mandatory">shadow-utils</packagereq>
+      <packagereq type="mandatory">sssd-common</packagereq>
+      <packagereq type="mandatory">sssd-kcm</packagereq>
+      <packagereq type="mandatory">sudo</packagereq>
+      <packagereq type="mandatory">systemd</packagereq>
+      <packagereq type="mandatory">util-linux</packagereq>
+      <packagereq type="mandatory">vim-minimal</packagereq>
+      <packagereq type="mandatory">xfsprogs</packagereq>
+      <packagereq type="mandatory">yum</packagereq>
+      <packagereq type="default">NetworkManager</packagereq>
+      <packagereq type="default">NetworkManager-team</packagereq>
+      <packagereq type="default">NetworkManager-tui</packagereq>
+      <packagereq type="default">authselect</packagereq>
+      <packagereq type="default">dnf-plugins-core</packagereq>
+      <packagereq type="default">dracut-config-rescue</packagereq>
+      <packagereq type="default">initscripts-rename-device</packagereq>
+      <packagereq type="default">iwl100-firmware</packagereq>
+      <packagereq type="default">iwl1000-firmware</packagereq>
+      <packagereq type="default">iwl105-firmware</packagereq>
+      <packagereq type="default">iwl135-firmware</packagereq>
+      <packagereq type="default">iwl2000-firmware</packagereq>
+      <packagereq type="default">iwl2030-firmware</packagereq>
+      <packagereq type="default">iwl3160-firmware</packagereq>
+      <packagereq type="default">iwl5000-firmware</packagereq>
+      <packagereq type="default">iwl5150-firmware</packagereq>
+      <packagereq type="default">iwl6000g2a-firmware</packagereq>
+      <packagereq type="default">iwl6050-firmware</packagereq>
+      <packagereq type="default">iwl7260-firmware</packagereq>
+      <packagereq type="default">kernel-tools</packagereq>
+      <packagereq type="default">libsysfs</packagereq>
+      <packagereq type="default">linux-firmware</packagereq>
+      <packagereq type="default">lshw</packagereq>
+      <packagereq type="default">lsscsi</packagereq>
+      <packagereq type="default">microcode_ctl</packagereq>
+      <packagereq type="default">prefixdevname</packagereq>
+      <packagereq type="default">sg3_utils</packagereq>
+      <packagereq type="default">sg3_utils-libs</packagereq>
+      <packagereq type="optional">dracut-config-generic</packagereq>
+      <packagereq type="optional">dracut-network</packagereq>
+      <packagereq type="optional">rdma-core</packagereq>
+      <packagereq type="optional">selinux-policy-mls</packagereq>
+      <packagereq type="optional">tboot</packagereq>
       <packagereq type="mandatory">rsyslog</packagereq>
       <packagereq type="default">python3-libselinux</packagereq>
       <packagereq type="optional">initial-setup</packagereq>
@@ -211,6 +290,9 @@
     <description xml:lang="zh_CN">用于在桌面显示文字的字体软件包。</description>
     <description xml:lang="zh_TW">用於在桌面上呈現文本的字體包。</description>
     <packagelist>
+      <packagereq type="default">dejavu-sans-fonts</packagereq>
+      <packagereq type="default">dejavu-sans-mono-fonts</packagereq>
+      <packagereq type="default">dejavu-serif-fonts</packagereq>
       <packagereq type="default">abattis-cantarell-fonts</packagereq>
       <packagereq type="default">google-noto-emoji-color-fonts</packagereq>
       <packagereq type="default">google-noto-sans-cjk-ttc-fonts</packagereq>
@@ -442,6 +524,12 @@
     <description xml:lang="zh_CN">GNOME 是一个非常直观且用户友好的桌面环境。</description>
     <description xml:lang="zh_TW">GNOME是一個高度直觀且用戶友好的桌面環境。</description>
     <packagelist>
+      <packagereq type="mandatory">ModemManager</packagereq>
+      <packagereq type="mandatory">NetworkManager-adsl</packagereq>
+      <packagereq type="mandatory">avahi</packagereq>
+      <packagereq type="mandatory">glib-networking</packagereq>
+      <packagereq type="mandatory">glibc-all-langpacks</packagereq>
+      <packagereq type="mandatory">polkit</packagereq>
       <packagereq type="mandatory">PackageKit-command-not-found</packagereq>
       <packagereq type="mandatory">PackageKit-gtk3-module</packagereq>
       <packagereq type="mandatory">at-spi2-atk</packagereq>
@@ -783,6 +871,10 @@
     <description xml:lang="ko">이 그룹에는 일부 단순화된 구성에서는 필요하지 않을 수 있는 일반적으로 사용되는 NetworkManager 서브 모듈이 포함되어 있습니다.</description>
     <description xml:lang="zh_CN">常用的、但可能在一些简化配置中不需要的 NetworkManager 子模块。</description>
     <packagelist>
+      <packagereq type="default">NetworkManager-bluetooth</packagereq>
+      <packagereq type="default">NetworkManager-wifi</packagereq>
+      <packagereq type="default">NetworkManager-wwan</packagereq>
+      <packagereq type="default">iptables-nft</packagereq>
       <packagereq type="default">dnsmasq</packagereq>
     </packagelist>
   </group>
@@ -969,6 +1061,18 @@
       <packagereq type="optional">traceroute</packagereq>
       <packagereq type="optional">vdo-support</packagereq>
       <packagereq type="optional">zsh</packagereq>
+      <packagereq type="mandatory">rsyslog-gnutls</packagereq>
+      <packagereq type="mandatory">rsyslog-gssapi</packagereq>
+      <packagereq type="mandatory">rsyslog-relp</packagereq>
+      <packagereq type="default">blktrace</packagereq>
+      <packagereq type="default">fprintd-pam</packagereq>
+      <packagereq type="default">libstoragemgmt</packagereq>
+      <packagereq type="default">nmap-ncat</packagereq>
+      <packagereq type="default">pinfo</packagereq>
+      <packagereq type="default">plymouth</packagereq>
+      <packagereq type="default">tcpdump</packagereq>
+      <packagereq type="default">vim-enhanced</packagereq>
+      <packagereq type="default">wget</packagereq>
     </packagelist>
   </group>
   <group>
@@ -1000,6 +1104,59 @@
     <description xml:lang="zh_CN">工作站产品必需的软件包。</description>
     <description xml:lang="zh_TW">工作站產品必需的包。</description>
     <packagelist>
+      <packagereq type="mandatory">acl</packagereq>
+      <packagereq type="mandatory">attr</packagereq>
+      <packagereq type="mandatory">bash-completion</packagereq>
+      <packagereq type="mandatory">bc</packagereq>
+      <packagereq type="mandatory">bzip2</packagereq>
+      <packagereq type="mandatory">chrony</packagereq>
+      <packagereq type="mandatory">cifs-utils</packagereq>
+      <packagereq type="mandatory">cpio</packagereq>
+      <packagereq type="mandatory">crontabs</packagereq>
+      <packagereq type="mandatory">cryptsetup</packagereq>
+      <packagereq type="mandatory">cyrus-sasl-plain</packagereq>
+      <packagereq type="mandatory">dnf</packagereq>
+      <packagereq type="mandatory">dnf-plugins-core</packagereq>
+      <packagereq type="mandatory">dos2unix</packagereq>
+      <packagereq type="mandatory">dosfstools</packagereq>
+      <packagereq type="mandatory">ethtool</packagereq>
+      <packagereq type="mandatory">file</packagereq>
+      <packagereq type="mandatory">glibc-all-langpacks</packagereq>
+      <packagereq type="mandatory">gnupg2</packagereq>
+      <packagereq type="mandatory">logrotate</packagereq>
+      <packagereq type="mandatory">lrzsz</packagereq>
+      <packagereq type="mandatory">lsof</packagereq>
+      <packagereq type="mandatory">mailcap</packagereq>
+      <packagereq type="mandatory">man-pages</packagereq>
+      <packagereq type="mandatory">mcelog</packagereq>
+      <packagereq type="mandatory">mdadm</packagereq>
+      <packagereq type="mandatory">microcode_ctl</packagereq>
+      <packagereq type="mandatory">mlocate</packagereq>
+      <packagereq type="mandatory">mtr</packagereq>
+      <packagereq type="mandatory">net-tools</packagereq>
+      <packagereq type="mandatory">nfs-utils</packagereq>
+      <packagereq type="mandatory">pciutils</packagereq>
+      <packagereq type="mandatory">polkit</packagereq>
+      <packagereq type="mandatory">psacct</packagereq>
+      <packagereq type="mandatory">quota</packagereq>
+      <packagereq type="mandatory">realmd</packagereq>
+      <packagereq type="mandatory">el-release</packagereq>
+      <packagereq type="mandatory">el-release-eula</packagereq>
+      <packagereq type="mandatory">rsync</packagereq>
+      <packagereq type="mandatory">sos</packagereq>
+      <packagereq type="mandatory">sssd</packagereq>
+      <packagereq type="mandatory">sudo</packagereq>
+      <packagereq type="mandatory">symlinks</packagereq>
+      <packagereq type="mandatory">systemd-udev</packagereq>
+      <packagereq type="mandatory">tar</packagereq>
+      <packagereq type="mandatory">time</packagereq>
+      <packagereq type="mandatory">traceroute</packagereq>
+      <packagereq type="mandatory">tree</packagereq>
+      <packagereq type="mandatory">unzip</packagereq>
+      <packagereq type="mandatory">usbutils</packagereq>
+      <packagereq type="mandatory">which</packagereq>
+      <packagereq type="mandatory">words</packagereq>
+      <packagereq type="mandatory">zip</packagereq>
       <packagereq type="mandatory">adwaita-qt5</packagereq>
       <packagereq type="mandatory">alsa-sof-firmware</packagereq>
       <packagereq type="mandatory">bind-utils</packagereq>
@@ -1033,7 +1190,88 @@
     </packagelist>
   </group>
   <group>
+    <id>office-suite</id>
+    <default>true</default>
+    <uservisible>false</uservisible>
+    <display_order>1024</display_order>
+    <name>Office Suite and Productivity</name>
+    <name xml:lang="as">কাৰ্যালয় গোট আৰু কাৰ্য্যক্ষমতা</name>
+    <name xml:lang="bn">অফিস স্যুট ও কর্মক্ষমতা</name>
+    <name xml:lang="cs">Kancelářské aplikace</name>
+    <name xml:lang="de">Büro-Suite und Produktivität</name>
+    <name xml:lang="de_CH">Büro-Suite und Produktivität</name>
+    <name xml:lang="es">Office Suite y Productividad</name>
+    <name xml:lang="fr">Suite de bureautique et productivité</name>
+    <name xml:lang="gu">ઓફિસ સુટ અને ઉત્પાદકતા</name>
+    <name xml:lang="hi">ऑफिस सूइट और उत्पादकता</name>
+    <name xml:lang="ia">Applicationes de officio e productivitate</name>
+    <name xml:lang="it">Suite d'ufficio e Produttività</name>
+    <name xml:lang="ja">オフィススイートと生産性</name>
+    <name xml:lang="kn">ಆಫೀಸ್ ಸೂಟ್ ಹಾಗು ಉತ್ಪಾದಕತೆ</name>
+    <name xml:lang="ko">오피스 스위트/생산성</name>
+    <name xml:lang="ml">ഓഫീസ് സ്യൂട്ടും പ്രൊഡക്ടിവിറ്റിയും</name>
+    <name xml:lang="mr">ऑफिस स्युट व प्रोडक्टिवीटी</name>
+    <name xml:lang="or">ଅଫିସ ଅନୁଗାମୀ ଏବଂ ଉତ୍ପାଦନ</name>
+    <name xml:lang="pa">ਦਫਤਰੀ ਸੂਟ ਅਤੇ ਉਤਪਾਦਨ</name>
+    <name xml:lang="pl">Biuro i praca biurowa</name>
+    <name xml:lang="pt">Conjunto Office e Produtividade</name>
+    <name xml:lang="pt_BR">Conjunto Office e Produtividade</name>
+    <name xml:lang="ru">Офисный комплект</name>
+    <name xml:lang="sv">Kontorssvit och produktivitet</name>
+    <name xml:lang="ta">அலுவலகம் பரிவாரம் மற்றும் உற்பத்தி திறன்</name>
+    <name xml:lang="te">ఆఫీస్ స్యూట్ మరియు ఉత్పాదకత</name>
+    <name xml:lang="uk">Офісні комплекси і окремі програми</name>
+    <name xml:lang="zh">辦公軟體和生產軟體</name>
+    <name xml:lang="zh_CN">办公套件和生产率</name>
+    <name xml:lang="zh_TW">辦公軟體和生產軟體</name>
+    <description>A full-purpose office suite, and other productivity tools.</description>
+    <description xml:lang="as">সম্পূৰ্ণ কাৰ্য্যক্ষমতা বিশিষ্ট কাৰ্যালয় গোট আৰু অন্যান্য নিৰ্মাণকাৰ্য্যৰ সামগ্ৰী।</description>
+    <description xml:lang="bn">সম্পূর্ণ কর্মক্ষমতা বিশিষ্ট অফিস স্যুট ও অন্যান্য নির্মাণকাজের সামগ্রী।</description>
+    <description xml:lang="cs">Univerzální kancelářský balík a další užitečné nástroje.</description>
+    <description xml:lang="de">Eine Vollzweck-Office-Suite und sonstige Produktivitäts-Tools.</description>
+    <description xml:lang="de_CH">Eine Vollzweck-Office-Suite und sonstige Produktivitäts-Tools.</description>
+    <description xml:lang="es">Un propósito total de office suite y otras herramientas de productividad.</description>
+    <description xml:lang="fr">Suite bureautique complète et autres outils de productivité.</description>
+    <description xml:lang="gu">સંપૂર્ણ-હેતુ માટે ઓફિસ સુટ, અને બીજા ઉત્પાદકતા સાધનો.</description>
+    <description xml:lang="hi">एक पूर्ण उद्देश्यीय ऑफिस सूइट, और अन्य उत्पादकता औज़ार.</description>
+    <description xml:lang="ia">Un insimul complete del applicationes de officio e altere utensiles pro le productivitate.</description>
+    <description xml:lang="it">Una suite d'ufficio per tutti gli scopi ed altri tool di produttività.</description>
+    <description xml:lang="ja">全目的対応のオフィススイートおよびその他生産性ツールです。</description>
+    <description xml:lang="kn">ಸಂಪೂರ್ಣ ಸಜ್ಜಿತವಾದ ಆಫೀಸ್ ಸೂಟ್, ಹಾಗು ಇತರೆ ಉತ್ಪಾದನಾ ಉಪಕರಣಗಳು.</description>
+    <description xml:lang="ko">완전한 오피스 스위트와 다른 생산성 툴.</description>
+    <description xml:lang="ml">പൂര്‍ണ്ണ ആവശ്യങ്ങള്‍ക്കുള്ള ഓഫീസ് സ്യൂട്ടും മറ്റ് പ്രൊഡക്ടിവിറ്റി ഉപകരണങ്ങളും.</description>
+    <description xml:lang="mr">संपूर्णतया-उपयोगी ऑफिस संच, व इतर उपयोगी साधने.</description>
+    <description xml:lang="or">ଗୋଟିଏ ସମ୍ପୂର୍ଣ୍ଣ-ଉପଯୋଗୀ ଅଫିସ ଅନୁଗାମୀ, ଏବଂ ଅନ୍ୟାନ୍ୟ ଉତ୍ପାଦନ ମୂଳକ ସାଧନଗୁଡ଼ିକ।</description>
+    <description xml:lang="pa">ਇੱਕ ਸੰਪੂਰਨ ਦਫਤਰ ਸੈੱਟ, ਅਤੇ ਹੋਰ ਉਤਪਾਦਕੀ ਜੰਤਰ।</description>
+    <description xml:lang="pl">Pakiet biurowy i inne narzędzia produkcyjne.</description>
+    <description xml:lang="pt">Um conjunto de office totalmente designado e outras ferramentas de produtividade.</description>
+    <description xml:lang="pt_BR">Um conjunto de office totalmente designado e outras ferramentas de produtividade.</description>
+    <description xml:lang="ru">Многофункциональный комплект офисных приложений.</description>
+    <description xml:lang="sv">En kontorssvit för alla ändamål, och andra produktivitetsverktyg.</description>
+    <description xml:lang="ta">ஒரு முழு-செயல்முறை அலுவக சூழல், மற்றும் மற்ற தயாரிப்பு கருவிகள்.</description>
+    <description xml:lang="te">ఒక పూర్తి-ప్రయోజనాత్మక ఆఫీస్ సూట్, మరియు యితర వుత్పాదక సాధనములు.</description>
+    <description xml:lang="uk">Комплекс офісних програм широкого призначення.</description>
+    <description xml:lang="zh">完整用途的辦公軟體套件，以及其它生產用途的工具。</description>
+    <description xml:lang="zh_CN">全套办公套件以及其它产品工具。</description>
+    <description xml:lang="zh_TW">完整用途的辦公軟體套件，以及其它生產用途的工具。</description>
+    <packagelist>
+      <packagereq type="default">libreoffice-calc</packagereq>
+      <packagereq type="default">libreoffice-draw</packagereq>
+      <packagereq type="default">libreoffice-emailmerge</packagereq>
+      <packagereq type="default">libreoffice-graphicfilter</packagereq>
+      <packagereq type="default">libreoffice-impress</packagereq>
+      <packagereq type="default">libreoffice-math</packagereq>
+      <packagereq type="default">libreoffice-writer</packagereq>
+      <packagereq type="optional">libreoffice-base</packagereq>
+      <packagereq type="optional">libreoffice-ogltrans</packagereq>
+      <packagereq type="optional">libreoffice-pyuno</packagereq>
+      <packagereq type="optional">libreoffice-wiki-publisher</packagereq>
+    </packagelist>
+  </group>
+  <group>
     <id>eld-setup</id>
+    <default>true</default>
+    <uservisible>false</uservisible>
     <name>eld-setup</name>
     <packagelist>
       <packagereq type="mandatory">eld-setup</packagereq>
@@ -1083,8 +1321,8 @@
       <groupid>print-client</groupid>
       <groupid>standard</groupid>
       <groupid>workstation-product</groupid>
-      <groupid>eld-setup</groupid>
       <groupid>office-suite</groupid>
+      <groupid>eld-setup</groupid>
     </grouplist>
     <optionlist>
     </optionlist>
