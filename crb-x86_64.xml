@@ -89,8 +89,11 @@
       <packagereq type="default">bsf</packagereq>
       <packagereq type="default">cairomm-devel</packagereq>
       <packagereq type="default">cairomm-doc</packagereq>
+      <packagereq type="default">capstone-devel</packagereq>
+      <packagereq type="default">capstone-java</packagereq>
       <packagereq type="default">catatonit</packagereq>
       <packagereq type="default">cglib</packagereq>
+      <packagereq type="default">cifs-utils-devel</packagereq>
       <packagereq type="default">clucene-core-devel</packagereq>
       <packagereq type="default">colord-devel</packagereq>
       <packagereq type="default">colord-devel-docs</packagereq>
@@ -102,6 +105,7 @@
       <packagereq type="default">createrepo_c-devel</packagereq>
       <packagereq type="default">criu-devel</packagereq>
       <packagereq type="default">cups-filters-devel</packagereq>
+      <packagereq type="default">cxl-devel</packagereq>
       <packagereq type="default">daxctl-devel</packagereq>
       <packagereq type="default">dblatex</packagereq>
       <packagereq type="default">dconf-devel</packagereq>
@@ -127,6 +131,9 @@
       <packagereq type="default">dyninst-doc</packagereq>
       <packagereq type="default">dyninst-testsuite</packagereq>
       <packagereq type="default">easymock</packagereq>
+      <packagereq type="default">edk2-aarch64</packagereq>
+      <packagereq type="default">edk2-tools</packagereq>
+      <packagereq type="default">edk2-tools-doc</packagereq>
       <packagereq type="default">eglexternalplatform-devel</packagereq>
       <packagereq type="default">eigen3-devel</packagereq>
       <packagereq type="default">emacs-cython-mode</packagereq>
@@ -156,6 +163,12 @@
       <packagereq type="default">fontconfig-devel-doc</packagereq>
       <packagereq type="default">fontpackages-devel</packagereq>
       <packagereq type="default">freeipmi-devel</packagereq>
+      <packagereq type="default">freeradius-mysql</packagereq>
+      <packagereq type="default">freeradius-perl</packagereq>
+      <packagereq type="default">freeradius-postgresql</packagereq>
+      <packagereq type="default">freeradius-rest</packagereq>
+      <packagereq type="default">freeradius-sqlite</packagereq>
+      <packagereq type="default">freeradius-unixODBC</packagereq>
       <packagereq type="default">freerdp-devel</packagereq>
       <packagereq type="default">fstrm-devel</packagereq>
       <packagereq type="default">fstrm-utils</packagereq>
@@ -195,6 +208,7 @@
       <packagereq type="default">gnu-efi</packagereq>
       <packagereq type="default">gnu-efi-devel</packagereq>
       <packagereq type="default">gobject-introspection-devel</packagereq>
+      <packagereq type="default">golang-github-cpuguy83-md2man</packagereq>
       <packagereq type="default">google-noto-sans-cjk-jp-fonts</packagereq>
       <packagereq type="default">google-noto-sans-symbols2-fonts</packagereq>
       <packagereq type="default">google-roboto-slab-fonts</packagereq>
@@ -236,8 +250,11 @@
       <packagereq type="default">jansson-devel</packagereq>
       <packagereq type="default">jasper-devel</packagereq>
       <packagereq type="default">javapackages-local</packagereq>
+      <packagereq type="default">jbig2dec-devel</packagereq>
       <packagereq type="default">jbigkit-devel</packagereq>
       <packagereq type="default">jitterentropy-devel</packagereq>
+      <packagereq type="default">jmc</packagereq>
+      <packagereq type="default">jmc-core</packagereq>
       <packagereq type="default">jq-devel</packagereq>
       <packagereq type="default">jsch</packagereq>
       <packagereq type="default">json-c-devel</packagereq>
@@ -271,6 +288,7 @@
       <packagereq type="default">libXres-devel</packagereq>
       <packagereq type="default">libXxf86vm-devel</packagereq>
       <packagereq type="default">liba52-devel</packagereq>
+      <packagereq type="default">libabigail</packagereq>
       <packagereq type="default">libao-devel</packagereq>
       <packagereq type="default">libappstream-glib-devel</packagereq>
       <packagereq type="default">libarchive-devel</packagereq>
@@ -285,6 +303,7 @@
       <packagereq type="default">libburn-devel</packagereq>
       <packagereq type="default">libcdio-devel</packagereq>
       <packagereq type="default">libcdio-paranoia-devel</packagereq>
+      <packagereq type="default">libcdr-devel</packagereq>
       <packagereq type="default">libcmocka</packagereq>
       <packagereq type="default">libcmocka-devel</packagereq>
       <packagereq type="default">libcollection-devel</packagereq>
@@ -300,6 +319,7 @@
       <packagereq type="default">libdecor-devel</packagereq>
       <packagereq type="default">libdhash-devel</packagereq>
       <packagereq type="default">libdnf-devel</packagereq>
+      <packagereq type="default">libdvdnav-devel</packagereq>
       <packagereq type="default">libdvdread-devel</packagereq>
       <packagereq type="default">libecpg-devel</packagereq>
       <packagereq type="default">libedit-devel</packagereq>
@@ -314,6 +334,7 @@
       <packagereq type="default">libfdt-static</packagereq>
       <packagereq type="default">libfido2-devel</packagereq>
       <packagereq type="default">libfontenc-devel</packagereq>
+      <packagereq type="default">libfreehand-devel</packagereq>
       <packagereq type="default">libgee-devel</packagereq>
       <packagereq type="default">libgexiv2-devel</packagereq>
       <packagereq type="default">libgnomekbd-devel</packagereq>
@@ -355,10 +376,13 @@
       <packagereq type="default">libmnl-devel</packagereq>
       <packagereq type="default">libmodulemd-devel</packagereq>
       <packagereq type="default">libmount-devel</packagereq>
+      <packagereq type="default">libmpeg2-devel</packagereq>
       <packagereq type="default">libmspack-devel</packagereq>
+      <packagereq type="default">libmspub-devel</packagereq>
       <packagereq type="default">libmtp-devel</packagereq>
       <packagereq type="default">libnbd-devel</packagereq>
       <packagereq type="default">libnet-devel</packagereq>
+      <packagereq type="default">libnetapi-devel</packagereq>
       <packagereq type="default">libnetfilter_conntrack-devel</packagereq>
       <packagereq type="default">libnetfilter_queue-devel</packagereq>
       <packagereq type="default">libnfnetlink-devel</packagereq>
@@ -375,6 +399,7 @@
       <packagereq type="default">libopenraw-gnome</packagereq>
       <packagereq type="default">libopenraw-gnome-devel</packagereq>
       <packagereq type="default">libotr-devel</packagereq>
+      <packagereq type="default">libpagemaker-devel</packagereq>
       <packagereq type="default">libpaper-devel</packagereq>
       <packagereq type="default">libpath_utils-devel</packagereq>
       <packagereq type="default">libpcap-devel</packagereq>
@@ -392,6 +417,7 @@
       <packagereq type="default">libqhull</packagereq>
       <packagereq type="default">libqhull_p</packagereq>
       <packagereq type="default">libqhull_r</packagereq>
+      <packagereq type="default">libqxp-devel</packagereq>
       <packagereq type="default">librabbitmq-devel</packagereq>
       <packagereq type="default">librados-devel</packagereq>
       <packagereq type="default">librbd-devel</packagereq>
@@ -415,6 +441,7 @@
       <packagereq type="default">libsigc++20-doc</packagereq>
       <packagereq type="default">libsigsegv-devel</packagereq>
       <packagereq type="default">libslirp-devel</packagereq>
+      <packagereq type="default">libsmartcols-devel</packagereq>
       <packagereq type="default">libsmbclient-devel</packagereq>
       <packagereq type="default">libsndfile-devel</packagereq>
       <packagereq type="default">libsolv-devel</packagereq>
@@ -445,6 +472,7 @@
       <packagereq type="default">libvala</packagereq>
       <packagereq type="default">libvala-devel</packagereq>
       <packagereq type="default">libvdpau-devel</packagereq>
+      <packagereq type="default">libvirt-client-qemu</packagereq>
       <packagereq type="default">libvirt-devel</packagereq>
       <packagereq type="default">libvirt-docs</packagereq>
       <packagereq type="default">libvirt-lock-sanlock</packagereq>
@@ -456,6 +484,7 @@
       <packagereq type="default">libvpx-devel</packagereq>
       <packagereq type="default">libwacom-devel</packagereq>
       <packagereq type="default">libwbclient-devel</packagereq>
+      <packagereq type="default">libwebp-tools</packagereq>
       <packagereq type="default">libwmf-devel</packagereq>
       <packagereq type="default">libwnck3-devel</packagereq>
       <packagereq type="default">libwpd-devel</packagereq>
@@ -467,6 +496,7 @@
       <packagereq type="default">libwps-doc</packagereq>
       <packagereq type="default">libwsman-devel</packagereq>
       <packagereq type="default">libxcrypt-static</packagereq>
+      <packagereq type="default">libxcvt-devel</packagereq>
       <packagereq type="default">libxdp-devel</packagereq>
       <packagereq type="default">libxdp-static</packagereq>
       <packagereq type="default">libxkbcommon-x11-devel</packagereq>
@@ -474,6 +504,7 @@
       <packagereq type="default">libxklavier-devel</packagereq>
       <packagereq type="default">libyaml-devel</packagereq>
       <packagereq type="default">libzip-devel</packagereq>
+      <packagereq type="default">libzmf-devel</packagereq>
       <packagereq type="default">linuxdoc-tools</packagereq>
       <packagereq type="default">lockdev-devel</packagereq>
       <packagereq type="default">lttng-ust-devel</packagereq>
@@ -520,6 +551,7 @@
       <packagereq type="default">meson</packagereq>
       <packagereq type="default">mingw-binutils-generic</packagereq>
       <packagereq type="default">mingw-filesystem-base</packagereq>
+      <packagereq type="default">mingw-w64-tools</packagereq>
       <packagereq type="default">mingw32-binutils</packagereq>
       <packagereq type="default">mingw32-cpp</packagereq>
       <packagereq type="default">mingw32-crt</packagereq>
@@ -568,6 +600,9 @@
       <packagereq type="default">mingw64-zlib-static</packagereq>
       <packagereq type="default">mobile-broadband-provider-info-devel</packagereq>
       <packagereq type="default">mockito</packagereq>
+      <packagereq type="default">mpdecimal++</packagereq>
+      <packagereq type="default">mpdecimal-devel</packagereq>
+      <packagereq type="default">mpdecimal-doc</packagereq>
       <packagereq type="default">mpg123-devel</packagereq>
       <packagereq type="default">mtdev-devel</packagereq>
       <packagereq type="default">multilib-rpm-config</packagereq>
@@ -672,6 +707,7 @@
       <packagereq type="default">osgi-annotation</packagereq>
       <packagereq type="default">osgi-compendium</packagereq>
       <packagereq type="default">osgi-core</packagereq>
+      <packagereq type="default">owasp-java-encoder</packagereq>
       <packagereq type="default">pam_wrapper</packagereq>
       <packagereq type="default">pangomm-devel</packagereq>
       <packagereq type="default">pangomm-doc</packagereq>
@@ -749,6 +785,7 @@
       <packagereq type="default">perl-Module-Pluggable</packagereq>
       <packagereq type="default">perl-Module-Runtime</packagereq>
       <packagereq type="default">perl-Module-ScanDeps</packagereq>
+      <packagereq type="default">perl-Net-DNS-Nameserver</packagereq>
       <packagereq type="default">perl-Number-Compare</packagereq>
       <packagereq type="default">perl-Package-Stash</packagereq>
       <packagereq type="default">perl-Package-Stash-XS</packagereq>
@@ -823,6 +860,7 @@
       <packagereq type="default">po4a</packagereq>
       <packagereq type="default">poppler-cpp</packagereq>
       <packagereq type="default">poppler-cpp-devel</packagereq>
+      <packagereq type="default">poppler-data-devel</packagereq>
       <packagereq type="default">poppler-devel</packagereq>
       <packagereq type="default">poppler-glib-devel</packagereq>
       <packagereq type="default">poppler-qt5</packagereq>
@@ -835,6 +873,7 @@
       <packagereq type="default">postgresql-upgrade-devel</packagereq>
       <packagereq type="default">ppp-devel</packagereq>
       <packagereq type="default">pps-tools-devel</packagereq>
+      <packagereq type="default">procps-ng-devel</packagereq>
       <packagereq type="default">protobuf-c-compiler</packagereq>
       <packagereq type="default">protobuf-c-devel</packagereq>
       <packagereq type="default">protobuf-compiler</packagereq>
@@ -853,6 +892,7 @@
       <packagereq type="default">python3-Cython</packagereq>
       <packagereq type="default">python3-babeltrace</packagereq>
       <packagereq type="default">python3-cairo-devel</packagereq>
+      <packagereq type="default">python3-capstone</packagereq>
       <packagereq type="default">python3-debug</packagereq>
       <packagereq type="default">python3-gobject-devel</packagereq>
       <packagereq type="default">python3-hivex</packagereq>
@@ -876,6 +916,8 @@
       <packagereq type="default">python3-qt5-devel</packagereq>
       <packagereq type="default">python3-readthedocs-sphinx-ext</packagereq>
       <packagereq type="default">python3-rrdtool</packagereq>
+      <packagereq type="default">python3-samba-devel</packagereq>
+      <packagereq type="default">python3-samba-test</packagereq>
       <packagereq type="default">python3-setuptools_scm</packagereq>
       <packagereq type="default">python3-setuptools_scm+toml</packagereq>
       <packagereq type="default">python3-sip-devel</packagereq>
@@ -889,6 +931,22 @@
       <packagereq type="default">python3-test</packagereq>
       <packagereq type="default">python3-wheel</packagereq>
       <packagereq type="default">python3-wheel-wheel</packagereq>
+      <packagereq type="default">python3.11-Cython</packagereq>
+      <packagereq type="default">python3.11-attrs</packagereq>
+      <packagereq type="default">python3.11-debug</packagereq>
+      <packagereq type="default">python3.11-idle</packagereq>
+      <packagereq type="default">python3.11-iniconfig</packagereq>
+      <packagereq type="default">python3.11-packaging</packagereq>
+      <packagereq type="default">python3.11-pluggy</packagereq>
+      <packagereq type="default">python3.11-psycopg2-debug</packagereq>
+      <packagereq type="default">python3.11-psycopg2-tests</packagereq>
+      <packagereq type="default">python3.11-pybind11</packagereq>
+      <packagereq type="default">python3.11-pyparsing</packagereq>
+      <packagereq type="default">python3.11-pytest</packagereq>
+      <packagereq type="default">python3.11-semantic_version</packagereq>
+      <packagereq type="default">python3.11-setuptools-rust</packagereq>
+      <packagereq type="default">python3.11-test</packagereq>
+      <packagereq type="default">python3.11-wheel-wheel</packagereq>
       <packagereq type="default">qatlib-devel</packagereq>
       <packagereq type="default">qatlib-tests</packagereq>
       <packagereq type="default">qatzip-devel</packagereq>
@@ -897,6 +955,7 @@
       <packagereq type="default">qgpgme-devel</packagereq>
       <packagereq type="default">qhull-devel</packagereq>
       <packagereq type="default">qpdf</packagereq>
+      <packagereq type="default">qpdf-devel</packagereq>
       <packagereq type="default">qt5-devel</packagereq>
       <packagereq type="default">qt5-qtbase-static</packagereq>
       <packagereq type="default">qt5-qtdeclarative-static</packagereq>
@@ -951,6 +1010,7 @@
       <packagereq type="default">swig</packagereq>
       <packagereq type="default">swig-doc</packagereq>
       <packagereq type="default">swig-gdb</packagereq>
+      <packagereq type="default">systemd-boot-unsigned</packagereq>
       <packagereq type="default">taglib-devel</packagereq>
       <packagereq type="default">tesseract-devel</packagereq>
       <packagereq type="default">texi2html</packagereq>
