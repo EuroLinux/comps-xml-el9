@@ -1622,7 +1622,6 @@
       <packagereq type="optional">overpass-fonts</packagereq>
       <packagereq type="optional">paktype-naqsh-fonts</packagereq>
       <packagereq type="optional">paktype-tehreer-fonts</packagereq>
-      <packagereq type="optional">paratype-pt-sans-caption-fonts</packagereq>
       <packagereq type="optional">saab-fonts</packagereq>
       <packagereq type="optional">sil-scheherazade-fonts</packagereq>
       <packagereq type="optional">smc-rachana-fonts</packagereq>
@@ -3296,12 +3295,9 @@
       <packagereq type="mandatory">texlive-hyph-utf8</packagereq>
       <packagereq type="mandatory">texlive-hyphen-base</packagereq>
       <packagereq type="mandatory">texlive-hyphenat</packagereq>
-      <packagereq type="mandatory">texlive-ifetex</packagereq>
-      <packagereq type="mandatory">texlive-ifluatex</packagereq>
       <packagereq type="mandatory">texlive-ifmtarg</packagereq>
       <packagereq type="mandatory">texlive-ifoddpage</packagereq>
       <packagereq type="mandatory">texlive-iftex</packagereq>
-      <packagereq type="mandatory">texlive-ifxetex</packagereq>
       <packagereq type="mandatory">texlive-import</packagereq>
       <packagereq type="mandatory">texlive-index</packagereq>
       <packagereq type="mandatory">texlive-jadetex</packagereq>
@@ -3423,13 +3419,11 @@
       <packagereq type="mandatory">texlive-t2</packagereq>
       <packagereq type="mandatory">texlive-tabu</packagereq>
       <packagereq type="mandatory">texlive-tabulary</packagereq>
-      <packagereq type="mandatory">texlive-tetex</packagereq>
       <packagereq type="mandatory">texlive-tex</packagereq>
       <packagereq type="mandatory">texlive-tex-gyre</packagereq>
       <packagereq type="mandatory">texlive-tex-gyre-math</packagereq>
       <packagereq type="mandatory">texlive-tex-ini-files</packagereq>
       <packagereq type="mandatory">texlive-tex4ht</packagereq>
-      <packagereq type="mandatory">texlive-texconfig</packagereq>
       <packagereq type="mandatory">texlive-texlive-common-doc</packagereq>
       <packagereq type="mandatory">texlive-texlive-docindex</packagereq>
       <packagereq type="mandatory">texlive-texlive-en</packagereq>
@@ -3466,7 +3460,6 @@
       <packagereq type="mandatory">texlive-wadalab</packagereq>
       <packagereq type="mandatory">texlive-was</packagereq>
       <packagereq type="mandatory">texlive-wasy</packagereq>
-      <packagereq type="mandatory">texlive-wasy2-ps</packagereq>
       <packagereq type="mandatory">texlive-wasysym</packagereq>
       <packagereq type="mandatory">texlive-wrapfig</packagereq>
       <packagereq type="mandatory">texlive-xcolor</packagereq>
@@ -4708,7 +4701,6 @@
       <packagereq type="default">ibus-m17n</packagereq>
       <packagereq type="default">ibus-typing-booster</packagereq>
       <packagereq type="optional">ibus-table</packagereq>
-      <packagereq type="optional">ibus-table-array30</packagereq>
       <packagereq requires="gtk2" type="conditional">gtk2-immodule-xim</packagereq>
       <packagereq requires="gtk3" type="conditional">gtk3-immodule-xim</packagereq>
       <packagereq requires="gtk2" type="conditional">ibus-gtk2</packagereq>
@@ -5001,7 +4993,6 @@
       <packagereq type="default">pcp-pmda-haproxy</packagereq>
       <packagereq type="default">pcp-pmda-infiniband</packagereq>
       <packagereq type="default">pcp-pmda-json</packagereq>
-      <packagereq type="default">pcp-pmda-kvm</packagereq>
       <packagereq type="default">pcp-pmda-libvirt</packagereq>
       <packagereq type="default">pcp-pmda-lio</packagereq>
       <packagereq type="default">pcp-pmda-lmsensors</packagereq>

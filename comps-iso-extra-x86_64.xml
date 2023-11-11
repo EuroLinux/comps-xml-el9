@@ -2664,7 +2664,6 @@
     <default>false</default>
     <uservisible>true</uservisible>
     <packagelist>
-      <packagereq type="optional" variant="BaseOS">hmaccalc</packagereq>
       <packagereq type="optional" arch="x86_64" variant="BaseOS">tpm2-tools</packagereq>
       <packagereq type="optional" arch="ppc64le,x86_64" variant="BaseOS">tss2</packagereq>
       <packagereq type="default" variant="AppStream">scap-security-guide</packagereq>

@@ -565,7 +565,6 @@
       <packagereq type="mandatory">psacct</packagereq>
       <packagereq type="mandatory">quota</packagereq>
       <packagereq type="mandatory">el-release</packagereq>
-      <packagereq type="mandatory">el-release-eula</packagereq>
       <packagereq type="mandatory">sudo</packagereq>
       <packagereq type="mandatory">symlinks</packagereq>
       <packagereq type="mandatory">systemd-udev</packagereq>
@@ -977,7 +976,6 @@
     <description xml:lang="zh_CN">用于构建开源应用程序的附加开发标头及程序可。</description>
     <description xml:lang="zh_TW">用來建置開放式原始碼應用程式的應用程式開發表頭與函式庫。</description>
     <packagelist>
-      <packagereq type="mandatory">hmaccalc</packagereq>
       <packagereq type="mandatory">lz4</packagereq>
       <packagereq type="mandatory">lzo</packagereq>
     </packagelist>
@@ -1725,7 +1723,6 @@
     <description xml:lang="zh_CN">用于完整性和可信验证的安全性工具。</description>
     <description xml:lang="zh_TW">整合性和信任驗證的安全性工具。</description>
     <packagelist>
-      <packagereq type="optional">hmaccalc</packagereq>
     </packagelist>
   </group>
   <group>
@@ -2081,7 +2078,6 @@
       <packagereq type="mandatory">quota</packagereq>
       <packagereq type="mandatory">realmd</packagereq>
       <packagereq type="mandatory">el-release</packagereq>
-      <packagereq type="mandatory">el-release-eula</packagereq>
       <packagereq type="mandatory">rsync</packagereq>
       <packagereq type="mandatory">sos</packagereq>
       <packagereq type="mandatory">sssd</packagereq>
@@ -2449,7 +2445,6 @@
       <packagereq type="mandatory">psacct</packagereq>
       <packagereq type="mandatory">quota</packagereq>
       <packagereq type="mandatory">el-release</packagereq>
-      <packagereq type="mandatory">el-release-eula</packagereq>
       <packagereq type="mandatory">sudo</packagereq>
       <packagereq type="mandatory">symlinks</packagereq>
       <packagereq type="mandatory">systemd-udev</packagereq>
@@ -2755,7 +2750,6 @@
       <packagereq type="optional">chrpath</packagereq>
       <packagereq type="optional">environment-modules</packagereq>
       <packagereq type="optional">fuse</packagereq>
-      <packagereq type="optional">hardlink</packagereq>
       <packagereq type="optional">initscripts</packagereq>
       <packagereq type="optional">initscripts-service</packagereq>
       <packagereq type="optional">iotop</packagereq>
@@ -2797,7 +2791,6 @@
       <packagereq type="mandatory">polkit</packagereq>
       <packagereq type="mandatory">realmd</packagereq>
       <packagereq type="mandatory">el-release</packagereq>
-      <packagereq type="mandatory">el-release-eula</packagereq>
       <packagereq type="default">NetworkManager-config-server</packagereq>
       <packagereq type="default">NetworkManager-team</packagereq>
     </packagelist>
