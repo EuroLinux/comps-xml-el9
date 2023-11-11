@@ -132,7 +132,6 @@
       <packagereq variant="AppStream">expat-devel</packagereq>
       <packagereq variant="AppStream">fuse3-devel</packagereq>
       <packagereq variant="AppStream">gmp-devel</packagereq>
-      <packagereq variant="BaseOS">hmaccalc</packagereq>
       <packagereq variant="AppStream">iptables-devel</packagereq>
       <packagereq variant="AppStream">libacl-devel</packagereq>
       <packagereq variant="AppStream">libaio-devel</packagereq>
@@ -1525,12 +1524,8 @@
       <packagereq type="optional" variant="BaseOS">mksh</packagereq>
       <packagereq type="optional" variant="AppStream">cups-lpd</packagereq>
       <packagereq type="optional" variant="AppStream">ksh</packagereq>
-      <packagereq type="optional" variant="AppStream">ncompress</packagereq>
       <packagereq type="optional" variant="AppStream">telnet</packagereq>
       <packagereq type="optional" variant="AppStream">telnet-server</packagereq>
-      <packagereq type="optional" variant="AppStream">xinetd</packagereq>
-      <packagereq type="optional" variant="AppStream">ypbind</packagereq>
-      <packagereq type="optional" variant="AppStream">ypserv</packagereq>
     </packagelist>
   </group>
   <group variant="AppStream">
@@ -2311,7 +2306,6 @@
       <packagereq type="default" variant="AppStream">pcp-pmda-haproxy</packagereq>
       <packagereq type="default" arch="aarch64,ppc64le,x86_64" variant="AppStream">pcp-pmda-infiniband</packagereq>
       <packagereq type="default" variant="AppStream">pcp-pmda-json</packagereq>
-      <packagereq type="default" variant="AppStream">pcp-pmda-kvm</packagereq>
       <packagereq type="default" variant="AppStream">pcp-pmda-libvirt</packagereq>
       <packagereq type="default" variant="AppStream">pcp-pmda-lio</packagereq>
       <packagereq type="default" variant="AppStream">pcp-pmda-lmsensors</packagereq>
@@ -3424,7 +3418,6 @@
       <packagereq type="optional" variant="BaseOS">fuse</packagereq>
       <packagereq type="optional" variant="BaseOS">iotop</packagereq>
       <packagereq type="optional" variant="BaseOS">lzop</packagereq>
-      <packagereq type="optional" variant="BaseOS">hardlink</packagereq>
       <packagereq type="default" variant="AppStream">libreswan</packagereq>
       <packagereq type="default" variant="AppStream">NetworkManager-libreswan</packagereq>
       <packagereq type="default" variant="AppStream">nmap</packagereq>
@@ -3591,12 +3584,9 @@
       <packagereq>texlive-hyph-utf8</packagereq>
       <packagereq>texlive-hyphen-base</packagereq>
       <packagereq>texlive-hyphenat</packagereq>
-      <packagereq>texlive-ifetex</packagereq>
-      <packagereq>texlive-ifluatex</packagereq>
       <packagereq>texlive-ifmtarg</packagereq>
       <packagereq>texlive-ifoddpage</packagereq>
       <packagereq>texlive-iftex</packagereq>
-      <packagereq>texlive-ifxetex</packagereq>
       <packagereq>texlive-import</packagereq>
       <packagereq>texlive-index</packagereq>
       <packagereq>texlive-jadetex</packagereq>
@@ -3710,11 +3700,9 @@
       <packagereq>texlive-t2</packagereq>
       <packagereq>texlive-tabu</packagereq>
       <packagereq>texlive-tabulary</packagereq>
-      <packagereq>texlive-tetex</packagereq>
       <packagereq>texlive-tex-gyre</packagereq>
       <packagereq>texlive-tex-gyre-math</packagereq>
       <packagereq>texlive-tex-ini-files</packagereq>
-      <packagereq>texlive-texconfig</packagereq>
       <packagereq>texlive-texlive-common-doc</packagereq>
       <packagereq>texlive-texlive-docindex</packagereq>
       <packagereq>texlive-texlive-en</packagereq>
@@ -3751,7 +3739,6 @@
       <packagereq>texlive-wadalab</packagereq>
       <packagereq>texlive-was</packagereq>
       <packagereq>texlive-wasy</packagereq>
-      <packagereq>texlive-wasy2-ps</packagereq>
       <packagereq>texlive-wasysym</packagereq>
       <packagereq>texlive-wrapfig</packagereq>
       <packagereq>texlive-xcolor</packagereq>
@@ -4429,7 +4416,6 @@
     <uservisible>false</uservisible>
     <packagelist>
       <packagereq>ruby</packagereq>
-      <packagereq>ruby-irb</packagereq>
       <packagereq>rubygem-bundler</packagereq>
     </packagelist>
   </group>
@@ -4586,7 +4572,6 @@
     <packagelist>
       <packagereq type="mandatory">cups</packagereq>
       <packagereq type="default">foomatic</packagereq>
-      <packagereq type="default">foomatic-filters</packagereq>
       <packagereq type="default">gutenprint</packagereq>
       <packagereq type="default">gutenprint-cups</packagereq>
       <packagereq type="default">gutenprint-doc</packagereq>
@@ -5569,7 +5554,6 @@
       <packagereq type="default">ibus-m17n</packagereq>
       <packagereq type="default">ibus-typing-booster</packagereq>
       <packagereq type="optional">ibus-table</packagereq>
-      <packagereq type="optional">ibus-table-array30</packagereq>
     </packagelist>
   </group>
   <!--  <group arch="x86_64,ppc64le,aarch64" variant="AppStream">
@@ -5869,7 +5853,6 @@
     <packagelist>
       <packagereq>brasero</packagereq>
       <packagereq>brasero-nautilus</packagereq>
-      <packagereq>rhythmbox</packagereq>
     </packagelist>
   </group>
   <!--  <group variant="AppStream">
@@ -7116,7 +7099,6 @@
       <packagereq type="optional" variant="AppStream">overpass-fonts</packagereq>
       <packagereq type="optional" variant="AppStream">paktype-naqsh-fonts</packagereq>
       <packagereq type="optional" variant="AppStream">paktype-tehreer-fonts</packagereq>
-      <packagereq type="optional" variant="AppStream">paratype-pt-sans-caption-fonts</packagereq>
       <packagereq type="optional" variant="AppStream">saab-fonts</packagereq>
       <packagereq type="optional" variant="AppStream">sil-scheherazade-fonts</packagereq>
       <packagereq type="optional" variant="AppStream">smc-rachana-fonts</packagereq>
