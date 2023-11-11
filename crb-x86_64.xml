@@ -9,13 +9,16 @@
     <name xml:lang="fr">CRB</name>
     <name xml:lang="ja">CRB</name>
     <name xml:lang="ko">CRB</name>
+    <name xml:lang="ru">CRB</name>
     <name xml:lang="zh_CN">CRB</name>
     <description>CRB</description>
     <description xml:lang="fr">CRB</description>
     <description xml:lang="ja">CRB</description>
     <description xml:lang="ko">CRB</description>
+    <description xml:lang="ru">CRB</description>
     <description xml:lang="zh_CN">CRB</description>
     <packagelist>
+      <packagereq type="default">389-ds-base-devel</packagereq>
       <packagereq type="default">CUnit-devel</packagereq>
       <packagereq type="default">Judy-devel</packagereq>
       <packagereq type="default">LibRaw-devel</packagereq>
@@ -25,6 +28,7 @@
       <packagereq type="default">OpenIPMI-devel</packagereq>
       <packagereq type="default">PackageKit-glib-devel</packagereq>
       <packagereq type="default">SDL2-static</packagereq>
+      <packagereq type="default">WALinuxAgent-cvm</packagereq>
       <packagereq type="default">Xaw3d-devel</packagereq>
       <packagereq type="default">accel-config-devel</packagereq>
       <packagereq type="default">accountsservice-devel</packagereq>
@@ -53,6 +57,7 @@
       <packagereq type="default">avahi-compat-libdns_sd</packagereq>
       <packagereq type="default">avahi-compat-libdns_sd-devel</packagereq>
       <packagereq type="default">avahi-devel</packagereq>
+      <packagereq type="default">avahi-glib-devel</packagereq>
       <packagereq type="default">babel-doc</packagereq>
       <packagereq type="default">babl-devel</packagereq>
       <packagereq type="default">babl-devel-docs</packagereq>
@@ -139,6 +144,7 @@
       <packagereq type="default">emacs-cython-mode</packagereq>
       <packagereq type="default">enchant-devel</packagereq>
       <packagereq type="default">enchant2-devel</packagereq>
+      <packagereq type="default">espeak-ng-devel</packagereq>
       <packagereq type="default">evolution-data-server-doc</packagereq>
       <packagereq type="default">evolution-data-server-perl</packagereq>
       <packagereq type="default">evolution-data-server-tests</packagereq>
@@ -205,6 +211,7 @@
       <packagereq type="default">gnome-bluetooth-libs-devel</packagereq>
       <packagereq type="default">gnome-common</packagereq>
       <packagereq type="default">gnome-menus-devel</packagereq>
+      <packagereq type="default">gnome-software-devel</packagereq>
       <packagereq type="default">gnu-efi</packagereq>
       <packagereq type="default">gnu-efi-devel</packagereq>
       <packagereq type="default">gobject-introspection-devel</packagereq>
@@ -236,6 +243,7 @@
       <packagereq type="default">hesiod-devel</packagereq>
       <packagereq type="default">hivex-devel</packagereq>
       <packagereq type="default">http-parser-devel</packagereq>
+      <packagereq type="default">hwdata-devel</packagereq>
       <packagereq type="default">hwloc-devel</packagereq>
       <packagereq type="default">hyphen-devel</packagereq>
       <packagereq type="default">ibus-devel</packagereq>
@@ -249,6 +257,20 @@
       <packagereq type="default">iso-codes-devel</packagereq>
       <packagereq type="default">jansson-devel</packagereq>
       <packagereq type="default">jasper-devel</packagereq>
+      <packagereq type="default">java-21-openjdk-demo-fastdebug</packagereq>
+      <packagereq type="default">java-21-openjdk-demo-slowdebug</packagereq>
+      <packagereq type="default">java-21-openjdk-devel-fastdebug</packagereq>
+      <packagereq type="default">java-21-openjdk-devel-slowdebug</packagereq>
+      <packagereq type="default">java-21-openjdk-fastdebug</packagereq>
+      <packagereq type="default">java-21-openjdk-headless-fastdebug</packagereq>
+      <packagereq type="default">java-21-openjdk-headless-slowdebug</packagereq>
+      <packagereq type="default">java-21-openjdk-jmods-fastdebug</packagereq>
+      <packagereq type="default">java-21-openjdk-jmods-slowdebug</packagereq>
+      <packagereq type="default">java-21-openjdk-slowdebug</packagereq>
+      <packagereq type="default">java-21-openjdk-src-fastdebug</packagereq>
+      <packagereq type="default">java-21-openjdk-src-slowdebug</packagereq>
+      <packagereq type="default">java-21-openjdk-static-libs-fastdebug</packagereq>
+      <packagereq type="default">java-21-openjdk-static-libs-slowdebug</packagereq>
       <packagereq type="default">javapackages-local</packagereq>
       <packagereq type="default">jbig2dec-devel</packagereq>
       <packagereq type="default">jbigkit-devel</packagereq>
@@ -298,6 +320,7 @@
       <packagereq type="default">libatomic_ops-devel</packagereq>
       <packagereq type="default">libbabeltrace-devel</packagereq>
       <packagereq type="default">libbasicobjects-devel</packagereq>
+      <packagereq type="default">libblkio-devel</packagereq>
       <packagereq type="default">libbpf-devel</packagereq>
       <packagereq type="default">libbpf-static</packagereq>
       <packagereq type="default">libburn-devel</packagereq>
@@ -329,6 +352,7 @@
       <packagereq type="default">libevdev-devel</packagereq>
       <packagereq type="default">libexif-devel</packagereq>
       <packagereq type="default">libfabric-devel</packagereq>
+      <packagereq type="default">libfastjson-devel</packagereq>
       <packagereq type="default">libfdisk-devel</packagereq>
       <packagereq type="default">libfdt-devel</packagereq>
       <packagereq type="default">libfdt-static</packagereq>
@@ -365,6 +389,7 @@
       <packagereq type="default">liblangtag-gobject</packagereq>
       <packagereq type="default">libldb-devel</packagereq>
       <packagereq type="default">liblockfile-devel</packagereq>
+      <packagereq type="default">liblognorm-devel</packagereq>
       <packagereq type="default">libluksmeta-devel</packagereq>
       <packagereq type="default">libmad-devel</packagereq>
       <packagereq type="default">libmaxminddb-devel</packagereq>
@@ -405,6 +430,7 @@
       <packagereq type="default">libpcap-devel</packagereq>
       <packagereq type="default">libpciaccess-devel</packagereq>
       <packagereq type="default">libpeas-devel</packagereq>
+      <packagereq type="default">libperf</packagereq>
       <packagereq type="default">libpinyin-devel</packagereq>
       <packagereq type="default">libpmem-debug</packagereq>
       <packagereq type="default">libpmemblk-debug</packagereq>
@@ -423,6 +449,7 @@
       <packagereq type="default">librbd-devel</packagereq>
       <packagereq type="default">librdkafka-devel</packagereq>
       <packagereq type="default">libref_array-devel</packagereq>
+      <packagereq type="default">librelp-devel</packagereq>
       <packagereq type="default">libreoffice-sdk</packagereq>
       <packagereq type="default">libreoffice-sdk-doc</packagereq>
       <packagereq type="default">librepo-devel</packagereq>
@@ -464,6 +491,7 @@
       <packagereq type="default">libudisks2-devel</packagereq>
       <packagereq type="default">libuninameslist</packagereq>
       <packagereq type="default">libunistring-devel</packagereq>
+      <packagereq type="default">liburing-devel</packagereq>
       <packagereq type="default">libusb-devel</packagereq>
       <packagereq type="default">libuser-devel</packagereq>
       <packagereq type="default">libutempter-devel</packagereq>
@@ -473,9 +501,9 @@
       <packagereq type="default">libvala-devel</packagereq>
       <packagereq type="default">libvdpau-devel</packagereq>
       <packagereq type="default">libvirt-client-qemu</packagereq>
+      <packagereq type="default">libvirt-daemon-plugin-sanlock</packagereq>
       <packagereq type="default">libvirt-devel</packagereq>
       <packagereq type="default">libvirt-docs</packagereq>
-      <packagereq type="default">libvirt-lock-sanlock</packagereq>
       <packagereq type="default">libvisio-devel</packagereq>
       <packagereq type="default">libvisual-devel</packagereq>
       <packagereq type="default">libvoikko-devel</packagereq>
@@ -544,6 +572,7 @@
       <packagereq type="default">maven-surefire-provider-junit5</packagereq>
       <packagereq type="default">maven-surefire-provider-testng</packagereq>
       <packagereq type="default">maven-verifier</packagereq>
+      <packagereq type="default">mecab-devel</packagereq>
       <packagereq type="default">memkind-devel</packagereq>
       <packagereq type="default">mesa-libGLES-devel</packagereq>
       <packagereq type="default">mesa-libOSMesa-devel</packagereq>
@@ -895,6 +924,7 @@
       <packagereq type="default">python3-capstone</packagereq>
       <packagereq type="default">python3-debug</packagereq>
       <packagereq type="default">python3-gobject-devel</packagereq>
+      <packagereq type="default">python3-greenlet-devel</packagereq>
       <packagereq type="default">python3-hivex</packagereq>
       <packagereq type="default">python3-idle</packagereq>
       <packagereq type="default">python3-imagesize</packagereq>
@@ -1033,6 +1063,7 @@
       <packagereq type="default">uid_wrapper</packagereq>
       <packagereq type="default">unbound-devel</packagereq>
       <packagereq type="default">unicode-ucd-unihan</packagereq>
+      <packagereq type="default">unifdef</packagereq>
       <packagereq type="default">unixODBC-devel</packagereq>
       <packagereq type="default">upower-devel</packagereq>
       <packagereq type="default">upower-devel-docs</packagereq>
