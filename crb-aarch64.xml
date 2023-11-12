@@ -412,7 +412,6 @@
       <packagereq type="default">libref_array-devel</packagereq>
       <packagereq type="default">librepo-devel</packagereq>
       <packagereq type="default">librevenge-devel</packagereq>
-      <packagereq type="default">librhsm-devel</packagereq>
       <packagereq type="default">librx</packagereq>
       <packagereq type="default">librx-devel</packagereq>
       <packagereq type="default">libsamplerate-devel</packagereq>
