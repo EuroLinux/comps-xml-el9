@@ -380,7 +380,6 @@
     <packagelist>
       <packagereq type="mandatory">libvirt</packagereq>
       <packagereq type="mandatory">libvirt-client</packagereq>
-      <packagereq type="mandatory">virt-who</packagereq>
       <packagereq type="optional">fence-virtd-libvirt</packagereq>
       <packagereq type="optional">fence-virtd-multicast</packagereq>
       <packagereq type="optional">fence-virtd-serial</packagereq>

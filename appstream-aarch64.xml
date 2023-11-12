@@ -3158,7 +3158,6 @@
     <packagelist>
       <packagereq type="mandatory">libvirt</packagereq>
       <packagereq type="mandatory">libvirt-client</packagereq>
-      <packagereq type="mandatory">virt-who</packagereq>
     </packagelist>
   </group>
   <group>

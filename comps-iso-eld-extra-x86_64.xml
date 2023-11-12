@@ -4226,7 +4226,6 @@
     <packagelist>
       <packagereq type="mandatory">libvirt</packagereq>
       <packagereq type="mandatory">libvirt-client</packagereq>
-      <packagereq type="mandatory">virt-who</packagereq>
       <packagereq type="optional" arch="x86_64">fence-virtd-libvirt</packagereq>
       <packagereq type="optional" arch="x86_64">fence-virtd-multicast</packagereq>
       <packagereq type="optional" arch="x86_64">fence-virtd-serial</packagereq>

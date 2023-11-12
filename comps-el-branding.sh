@@ -18,3 +18,5 @@ sed -Ei '/DOCTYPE comps PUBLIC/d' *.xml
 sed -Ei '/subscription-manager/d' baseos-*.xml
 sed -Ei '/insights-client/d' appstream-*.xml
 sed -Ei '/rhc/d' *.xml
+sed -Ei '/rhsm/d' *.xml
+sed -Ei '/virt-who/d' *.xml
