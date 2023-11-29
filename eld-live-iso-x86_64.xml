@@ -534,6 +534,7 @@
       <packagereq type="mandatory">PackageKit-gtk3-module</packagereq>
       <packagereq type="mandatory">at-spi2-atk</packagereq>
       <packagereq type="mandatory">at-spi2-core</packagereq>
+      <packagereq type="mandatory">avahi-tools</packagereq>
       <packagereq type="mandatory">baobab</packagereq>
       <packagereq type="mandatory">cheese</packagereq>
       <packagereq type="mandatory">chrome-gnome-shell</packagereq>
@@ -1006,7 +1007,6 @@
       <packagereq type="mandatory">psacct</packagereq>
       <packagereq type="mandatory">quota</packagereq>
       <packagereq type="mandatory">el-release</packagereq>
-      <packagereq type="mandatory">el-release-eula</packagereq>
       <packagereq type="mandatory">sudo</packagereq>
       <packagereq type="mandatory">symlinks</packagereq>
       <packagereq type="mandatory">systemd-udev</packagereq>
@@ -1141,7 +1141,6 @@
       <packagereq type="mandatory">quota</packagereq>
       <packagereq type="mandatory">realmd</packagereq>
       <packagereq type="mandatory">el-release</packagereq>
-      <packagereq type="mandatory">el-release-eula</packagereq>
       <packagereq type="mandatory">rsync</packagereq>
       <packagereq type="mandatory">sos</packagereq>
       <packagereq type="mandatory">sssd</packagereq>

@@ -59,7 +59,6 @@
       <groupid>gnome-apps</groupid>
       <groupid>headless-management</groupid>
       <groupid>internet-applications</groupid>
-      <groupid>office-suite</groupid>
       <groupid>remote-desktop-clients</groupid>
       <groupid>smart-card</groupid>
     </optionlist>
